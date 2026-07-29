@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=HavenBuild
+Comment=Personal character build guide companion
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Categories=Utility;Education;
+StartupWMClass=haven-build

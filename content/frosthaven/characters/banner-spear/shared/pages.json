@@ -1,19 +1,54 @@
 {
   "pages": [
     {
-      "id": "overview",
-      "title": "Character overview",
-      "file": "overview.md"
+      "id": "introduction",
+      "title": "Introduction",
+      "file": "introduction.md"
     },
     {
-      "id": "perks",
-      "title": "Perks",
-      "file": "perks.md"
+      "id": "level-01-cards",
+      "title": "Level 1 Cards",
+      "file": "level-01-cards.md"
     },
     {
-      "id": "tips",
-      "title": "General tips",
-      "file": "tips.md"
+      "id": "level-02",
+      "title": "Level 2",
+      "file": "level-02.md"
+    },
+    {
+      "id": "level-03",
+      "title": "Level 3",
+      "file": "level-03.md"
+    },
+    {
+      "id": "level-04",
+      "title": "Level 4",
+      "file": "level-04.md"
+    },
+    {
+      "id": "level-05",
+      "title": "Level 5",
+      "file": "level-05.md"
+    },
+    {
+      "id": "level-06",
+      "title": "Level 6",
+      "file": "level-06.md"
+    },
+    {
+      "id": "level-07",
+      "title": "Level 7",
+      "file": "level-07.md"
+    },
+    {
+      "id": "level-08",
+      "title": "Level 8",
+      "file": "level-08.md"
+    },
+    {
+      "id": "level-09",
+      "title": "Level 9",
+      "file": "level-09.md"
     }
   ]
 }

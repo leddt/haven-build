@@ -43,6 +43,7 @@
   body,
   #root {
     height: 100%;
+    overflow: hidden;
   }
 
   body {
@@ -66,7 +67,7 @@
 
 @layer components {
   .prose-guide {
-    @apply max-w-3xl text-[1.05rem] leading-relaxed;
+    @apply w-full text-[1.05rem] leading-relaxed;
   }
 
   .prose-guide h1 {
@@ -108,5 +109,25 @@
 
   .prose-guide code {
     @apply rounded bg-muted px-1.5 py-0.5 text-sm;
+  }
+
+  .prose-guide .guide-image {
+    @apply my-2 rounded-md border border-border bg-muted/30;
+    /* Ability cards share ~2:3 aspect but vary in pixel size; lock display height. */
+    height: 26rem;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+
+  .prose-guide .guide-image-wide {
+    height: auto;
+    width: min(100%, 48rem);
+    max-height: 32rem;
+  }
+
+  .prose-guide p:has(> .guide-image) {
+    @apply my-4 flex flex-wrap items-end gap-2;
   }
 }

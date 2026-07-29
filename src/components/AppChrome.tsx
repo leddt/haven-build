@@ -2,6 +2,7 @@ import { Link, Outlet, useLocation } from "react-router-dom";
 import { getCurrentWindow } from "@tauri-apps/api/window";
 import { Bookmark, Settings } from "lucide-react";
 import { WindowControls } from "@/components/WindowControls";
+import { WindowResizeHandles } from "@/components/WindowResizeHandles";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -20,9 +21,10 @@ export function AppChrome() {
       : { from: location };
 
   return (
-    <div className="flex h-full min-h-0 flex-col">
+    <div className="relative flex h-full min-h-0 flex-col overflow-hidden">
+      <WindowResizeHandles />
       <header
-        className="flex items-center justify-between gap-4 border-b border-border pl-4"
+        className="flex shrink-0 items-center justify-between gap-4 border-b border-border pl-4"
         data-tauri-drag-region
         onDoubleClick={() => {
           void getCurrentWindow().toggleMaximize();
@@ -58,7 +60,7 @@ export function AppChrome() {
           <WindowControls />
         </div>
       </header>
-      <div className={cn("min-h-0 flex-1")}>
+      <div className={cn("min-h-0 flex-1 overflow-hidden")}>
         <Outlet />
       </div>
     </div>

@@ -20,8 +20,46 @@ npm run tauri dev
 ```
 
 On NVIDIA + Wayland, HavenBuild sets WebKit workarounds at startup so the window does not die with `Error 71 (Protocol error)`. You can override them in the environment if needed.
+
+**Install a local launcher + icon** (needed so the release binary shows the correct icon in the taskbar):
+
+```bash
+npm run build:deb          # or any release build that produces the binary
+npm run install:desktop
+```
+
+Then run from the app menu, or:
+
+```bash
+~/code/haven-build/src-tauri/target/release/haven-build
+```
+
+## Packages
+
+**Debian / Ubuntu package** (small; uses system WebKit):
+
+```bash
+npm run build:deb
+```
+
+Output: `src-tauri/target/release/bundle/deb/`
+
+**AppImage** (Arch / CachyOS): linuxdeploy’s bundled `strip` breaks on modern system libraries. Build with stripping disabled:
+
+```bash
+npm run build:appimage
+# or: NO_STRIP=true npm run tauri build -- --bundles appimage
+```
+
+Output: `src-tauri/target/release/bundle/appimage/`
 ## Sample content
 
-Frosthaven → Banner Spear → Frontline Tank, plus character-shared pages (overview, perks, tips).
+Frosthaven → Banner Spear with three builds from the community guide:
+
+- **Tactician** — formations-first
+- **Stonewall** — tank-first
+- **Breezing Banner** — banners / ranged support
+
+Plus character-shared card reviews (levels 1–9). Images live under `content/.../images/`.
 
 Add more games/characters/builds under `content/` using the same manifest layout.

@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "id": "summary",
+      "title": "Summary",
+      "file": "summary.md"
+    },
+    {
+      "id": "starting-items",
+      "title": "Starting Items",
+      "file": "starting-items.md"
+    },
+    {
+      "id": "core-level-1-cards",
+      "title": "Core Level 1 Cards",
+      "file": "core-level-1-cards.md"
+    },
+    {
+      "id": "example-level-one-hand",
+      "title": "Example Level One Hand",
+      "file": "example-level-one-hand.md"
+    },
+    {
+      "id": "opener",
+      "title": "Opener",
+      "file": "opener.md"
+    },
+    {
+      "id": "strategy-for-leveling",
+      "title": "Strategy for Leveling",
+      "file": "strategy-for-leveling.md"
+    },
+    {
+      "id": "level-2-hand",
+      "title": "Level 2 Hand",
+      "file": "level-2-hand.md"
+    },
+    {
+      "id": "level-3-hand",
+      "title": "Level 3 Hand",
+      "file": "level-3-hand.md"
+    },
+    {
+      "id": "level-4-hand",
+      "title": "Level 4 Hand",
+      "file": "level-4-hand.md"
+    },
+    {
+      "id": "level-5-hand",
+      "title": "Level 5 Hand",
+      "file": "level-5-hand.md"
+    },
+    {
+      "id": "level-6-hand",
+      "title": "Level 6 Hand",
+      "file": "level-6-hand.md"
+    },
+    {
+      "id": "level-7-hand",
+      "title": "Level 7 Hand",
+      "file": "level-7-hand.md"
+    },
+    {
+      "id": "level-8-hand",
+      "title": "Level 8 Hand",
+      "file": "level-8-hand.md"
+    },
+    {
+      "id": "level-9-hand",
+      "title": "Level 9 Hand",
+      "file": "level-9-hand.md"
+    },
+    {
+      "id": "perks",
+      "title": "Perks",
+      "file": "perks.md"
+    },
+    {
+      "id": "crafting",
+      "title": "Crafting",
+      "file": "crafting.md"
+    },
+    {
+      "id": "enhancements",
+      "title": "Enhancements",
+      "file": "enhancements.md"
+    }
+  ]
+}

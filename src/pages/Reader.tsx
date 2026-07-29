@@ -121,6 +121,10 @@ function PageBody({ loc }: { loc: AppLocation }) {
     pageId,
     buildId,
   );
+  const assetBase =
+    scope === "shared"
+      ? `${gameId}/characters/${characterId}/shared`
+      : `${gameId}/characters/${characterId}/builds/${buildId}`;
 
   const key = pageKey(loc);
   useEffect(() => {
@@ -181,7 +185,13 @@ function PageBody({ loc }: { loc: AppLocation }) {
       </div>
       <ScrollArea className="flex-1">
         <div className="px-6 py-8">
-          <MarkdownPage content={markdown} />
+          <MarkdownPage
+            content={markdown}
+            assetBase={assetBase}
+            gameId={gameId}
+            characterId={characterId}
+            buildId={buildId}
+          />
         </div>
       </ScrollArea>
     </div>
