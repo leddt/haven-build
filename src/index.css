@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", "Times New Roman", serif;
+  --color-background: oklch(0.98 0.01 85);
+  --color-foreground: oklch(0.22 0.02 55);
+  --color-muted: oklch(0.94 0.01 85);
+  --color-muted-foreground: oklch(0.48 0.02 55);
+  --color-border: oklch(0.86 0.02 75);
+  --color-card: oklch(0.995 0.005 85);
+  --color-primary: oklch(0.42 0.08 230);
+  --color-primary-foreground: oklch(0.98 0.01 85);
+  --color-accent: oklch(0.55 0.1 145);
+  --color-sidebar: oklch(0.96 0.015 90);
+  --color-sidebar-foreground: oklch(0.28 0.02 55);
+  --color-ring: oklch(0.42 0.08 230);
+}
+
+.dark {
+  --color-background: oklch(0.2 0.02 250);
+  --color-foreground: oklch(0.93 0.01 85);
+  --color-muted: oklch(0.26 0.02 250);
+  --color-muted-foreground: oklch(0.7 0.02 85);
+  --color-border: oklch(0.34 0.02 250);
+  --color-card: oklch(0.24 0.02 250);
+  --color-primary: oklch(0.72 0.08 210);
+  --color-primary-foreground: oklch(0.18 0.02 250);
+  --color-accent: oklch(0.72 0.1 150);
+  --color-sidebar: oklch(0.17 0.02 250);
+  --color-sidebar-foreground: oklch(0.9 0.01 85);
+  --color-ring: oklch(0.72 0.08 210);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 0% -10%, oklch(0.9 0.04 230 / 0.35), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, oklch(0.92 0.04 150 / 0.25), transparent);
+  }
+
+  .dark body {
+    background-image:
+      radial-gradient(ellipse 80% 50% at 0% -10%, oklch(0.3 0.05 230 / 0.4), transparent),
+      radial-gradient(ellipse 60% 40% at 100% 0%, oklch(0.28 0.05 150 / 0.3), transparent);
+  }
+
+  [data-tauri-drag-region] a,
+  [data-tauri-drag-region] button {
+    -webkit-app-region: no-drag;
+  }
+}
+
+@layer components {
+  .prose-guide {
+    @apply max-w-3xl text-[1.05rem] leading-relaxed;
+  }
+
+  .prose-guide h1 {
+    @apply font-display text-3xl font-semibold tracking-tight mb-4;
+  }
+
+  .prose-guide h2 {
+    @apply font-display text-xl font-semibold mt-8 mb-3;
+  }
+
+  .prose-guide p {
+    @apply mb-4 text-foreground/90;
+  }
+
+  .prose-guide ul,
+  .prose-guide ol {
+    @apply mb-4 pl-6;
+  }
+
+  .prose-guide ul {
+    @apply list-disc;
+  }
+
+  .prose-guide ol {
+    @apply list-decimal;
+  }
+
+  .prose-guide li {
+    @apply mb-1;
+  }
+
+  .prose-guide strong {
+    @apply font-semibold text-foreground;
+  }
+
+  .prose-guide a {
+    @apply text-primary underline underline-offset-2;
+  }
+
+  .prose-guide code {
+    @apply rounded bg-muted px-1.5 py-0.5 text-sm;
+  }
+}

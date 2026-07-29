@@ -1,0 +1,19 @@
+{
+  "pages": [
+    {
+      "id": "overview",
+      "title": "Character overview",
+      "file": "overview.md"
+    },
+    {
+      "id": "perks",
+      "title": "Perks",
+      "file": "perks.md"
+    },
+    {
+      "id": "tips",
+      "title": "General tips",
+      "file": "tips.md"
+    }
+  ]
+}
