@@ -3,7 +3,7 @@
 
 ## At All Costs
 
-![](../images/image60.png)
+![](../images/at-all-costs.png)
 
 The top of At All Costs is a situational heal at a poor initiative. Its impact can be massive, but at a great cost: each ally that increases their health damages you for one. If you’re healing these allies for the full three and this doesn’t cost you a card, this is typically worth it; if it’s only healing the ally for one or two, it might make sense to skip the heal on that ally and save the HP. Remember: you can heal some but not all allies if that’s advantageous for you. That being said, there is a nice interaction with poison: since healing a poisoned ally does not increase their health, you don’t suffer the damage when you do so. Similarly, you can remove wound, brittle, and bane from allies that are at full HP for no cost. We can consider bringing this card for the top when there is poison, or if we want our role to be one where we aren’t taking many hits and still want to use our HP as a resource. For a typical bannerspear who wants to be in the thick of things, we won’t want the top here. 
 
@@ -11,7 +11,7 @@ Most any bannerspear will consider the bottom. If nothing else, this is a bottom
 
 ## Resolved Courage
 
-![](../images/image56.png)
+![](../images/resolved-courage.png)
 
 Resolved Courage is a fantastic example of a formation attack. The grey hex is where you need to stand, and the blue hex is where any ally needs to stand. This can be another character, one of your banners, or another summon. Because the ally needs to be standing behind you, this is one of the safer formations to perform. It’s frequent that your Boneshaper or ranged Deathwalker will be standing here anyway, or else that you’ll have a banner behind you. Even if nobody is there, we can run this alongside [At All Costs](#_b47um9ulhbgb), dropping the summon in the blue hex. The payoff is nice, too: three attack threes with a nice condition. Enemies tend to make this pattern anyway, clumping around you to get their melee hits off, and immobilize is a wonderful condition to put on melee enemies. You’re moving at a very fast initiative, allowing you to get out of the way and leave the immobilized enemies behind. You also get one XP, which is the typical payoff on this class for performing a formation. 
 
@@ -19,7 +19,7 @@ The bottom action is simple: \+1 to an attack ability. You’re going to need to
 
 ## Tip of the Spear
 
-![](../images/image52.png)
+![](../images/tip-of-the-spear.png)
 
 Tip of the Spear is another relatively safe formation. Instead of a cleave pattern around you, you get a line pattern. I’ve found this one slightly harder to set up, as ranged enemies are usually more than one hex behind melee enemies, so you’ll need to flank one of the two groups rather than fight head on. Also, the line of enemies might appear in a narrow corridor, meaning you won’t have space for you and an ally to complete the pattern. Finally, if you want to hit the enemies before they move, you’ll need to pair this with a more reliably early card. Still, you should be able to line this up when you need to, and the pierce is a phenomenal bonus. If you have highly shielded enemies such as flame demons or living spirits, you might be happy just to use this on a single enemy. 
 
@@ -27,7 +27,7 @@ We have a few large move options for ourself. Some of our more complex formation
 
 ## Unbreakable Wall
 
-![](../images/image28.png)
+![](../images/unbreakable-wall.png)
 
 Unbreakable Wall gives another multitarget attack 3 formation. In my experience, the formation is easier to pull off than either of our first two formations, but also riskier, as it necessitates that both you and your ally are adjacent to a pair of enemies for the attack. This downside is somewhat mitigated. The slow initiative means you can both move in late to line it up, and you can push the enemies away afterwards. I don’t love pushing them unless the danger is severe or it lets you ignore retaliate, because it’s likely you can line up another formation against the two that are adjacent to you by moving quickly the following round \- Unbreakable Wall into [Resolved Courage](#_zgu5oklkgem7) is an excellent combination. It would be better to reverse the order so you could immobilize and then push two enemies, but the initiatives make that a much more challenging endeavor. 
 
@@ -35,7 +35,7 @@ The bottom here is fantastic for tankiness. Gaining a permanent shield allows us
 
 ## Pincer Movement
 
-![](../images/image36.png)
+![](../images/pincer-movement.png)
 
 Pincer Movement is our riskiest formation at level one. It requires us to be directly opposite our ally, meaning one of us has to be behind enemy lines. If there are two groups of enemies, ranged and melee, then you or your ally will be pincered as well as your target. Most of the time, you should be the one to move behind the enemies rather than an ally. You can use this card’s relatively slow initiative to move after the enemies have, and then the following round use a fast initiative to get out. It’s likely one of your allies will be next to an enemy, so finding the spot won’t usually be the difficult part here. If you do pull it off, an attack five with muddle is a nice reward for our time. The condtion isn’t huge, but this is our largest single target attack by a decent margin, so it’s always something we’re considering for finishing off a tanky foe without much shield. 
 
@@ -43,7 +43,7 @@ Bottom loots tend to be low value, but attaching a move one increases the value 
 
 ## Combined Effort
 
-![](../images/image32.png)
+![](../images/combined-effort.png)
 
 Combined Effort is a simple, reliable formation. I have never wanted to pull this off and had trouble making it work. Attack 3 wound isn’t absurdly high value, and the initiative is nothing special, but it’s nice to have something half decent to do when the battlefield is too chaotic to pull off a fancy formation and too dangerous to permit moving behind enemy lines. 
 
@@ -51,7 +51,7 @@ The bottom is one of our many actions that allow us to grant movement to our all
 
 ## Rallying Cry
 
-![](../images/image59.png)
+![](../images/rallying-cry.png)
 
 Rallying Cry provides another single target formation. Disarm is usually stronger than wound, but you have to work a little bit harder for it. We can usually pull this one off without running entirely behind the enemy frontline, so it’s a bit safer than [Pincer Movement](#_768ksnsz0b8i). Whether a disarm is two damage better than muddle depends heavily on how much more damage the enemy in question needs to perish. Of course, disarm is always better on faster initiatives, as a disarmed enemy might not attack the following round, so unless you can target something like an archer that is guaranteed to attack, you should find something faster to pair this with. 
 
@@ -59,7 +59,7 @@ The bottom is our first banner. Four health is small enough that it might die in
 
 ## Driving Inspiration
 
-![](../images/image30.png)
+![](../images/driving-inspiration.png)
 
 The top of Driving Inspiration is a simple attack at a strong initiative. An attack two with advantage is nearly as good as an attack three with your starting deck, and only gets better as you improve your modifiers. It isn’t flashy, but the massive range means that even if you’re running the loss on Unbreakable Wall, you’ll be able to find a target here. We don’t really care about elements on this class, except for the occasional wind, but perhaps an ally will like this. Geminate is a fantastic ally to Bannerspear if for no other reason than the frequent spare elements you toss out that they can use, or else convert to something they can use. 
 
@@ -67,7 +67,7 @@ The bottom provides a banner that is more situational than the [Banner of Streng
 
 ## Regroup
 
-![](../images/image25.png)
+![](../images/regroup.png)
 
 Regroup gives us something amazing to do between rooms. A heal two with regenerate can often amount to 4\-5 healing if performed right before a long rest. Plus, regenerate negates the effects of any negative conditions that might be applied later, unless of course the condition came from an attack or trap that damaged you, removing the regenerate. This type of action is another reason that the geminate is a great ally for us; the geminate often applies negative conditions without damage to themself in order to improve the value of their attacks. 
 
@@ -75,7 +75,7 @@ The bottom action lets us move a few allies a longer distance, but at the cost o
 
 ## Set for the Charge
 
-![](../images/image50.png)
+![](../images/set-for-the-charge.png)
 
 Now this is a *nice* initiative. Set for the Charge is one of my favorite actions when opening a room or scenario. All the melee enemies will run up to hit us, and they will all take two damage. It’s not perfectly reliable, as sometimes the enemies will stand still, but usually we’re happy when that happens (as we avoid lots of damage), so this prepares us for the worst case scenario. 
 
@@ -83,7 +83,7 @@ And when we need reliability? Nothing says reliable like “move a lot very, *ve
 
 ## Javelin
 
-![](../images/image43.png)
+![](../images/javelin.png)
 
 While we’re on the subject of reliability, we can examine Javelin. An attack three, range three is an extraordinarily reliable action, as we’ve seen from our friend the Brute. The strong initiative here really nails home the goal for this card: a straightforward attack that never fails. Even if our goal is to run frequent formations, there will be at least one turn in most scenarios where nothing we have really makes sense, and so having *something* that will always work on top is a huge boon. The range reduction from [Unbreakable Wall](#_u2k00e745ao6) is a bit more significant here, so be sure to keep it in mind if you’re tanking up. In any case, we don’t *really* care about the wind, especially at lower levels, but it’s not useless for us like the sun was, so it’s nice to have a reliable way to make it. 
 
@@ -93,7 +93,7 @@ The value of the bottom of this card is a lot higher than I had thought at first
 
 ## Deflecting Maneuver
 
-![](../images/image35.png)
+![](../images/deflecting-maneuver.png)
 
 Deflecting Maneuver’s top action is a straightforward attack. Two attack is of course quite bad, but three with advantage is fairly good, so we should try to run this after Javelin to get the wind. Giving enemies disadvantage when focusing us lets us be excepteionally tanky for a turn, but it isn’t reliable enough damage mitigation to use this card alone to tank a roomful of enemies for an entire round. However, when paired with Unbreakable Wall’s loss, we suddenly do have the capability to soak all of the hits. That combination makes this a decent card to use when entering a new room, tanking all the damage while your allies surge into the room. The fast initiative ensures that we should act before most enemies, which is essential for defensive actions like these. 
 
@@ -101,7 +101,7 @@ The bottom of the card is very situational. It provides a massive amount of shie
 
 ## Incendiary Throw
 
-![](../images/image57.png)
+![](../images/incendiary-throw.png)
 
 This action has usually felt worse than my first impression. An attack one wound is an ok level one action, and wounding in an AOE makes it incredible. However the requirement here means if you pull a \-1 or worse, this action completely whiffs, save for an element we can’t use. With a starter modifier deck, this will happen about one in three times, which is pretty unacceptable even for a level one card. We can increase the action’s value by pairing it with a bonus that increases our damage, such as the [Banner of Strength](#_oncl1tu76ylp) or the bottom of [Resolved Courage](#_zgu5oklkgem7). In scenarios where AOE wound is necessary, this seems in theory like it’s worth the effort. The catch, unfortunately, is simple: wound is best against shielded enemies, and against shielded enemies we need to pull even higher to push this action through. Plus, we already have great tools against shielded enemies ([Tip of the Spear](#_9biaxul0blo7)) and against swarms of low HP, no shield enemies (any of our formations). Poisoning the main target helps a lot, and since poison is already particularly strong into shielded enemies it’s likely that if your allies have poison it’ll be in the right place. The best case scenario is a bunch of living spirits escorting a single earth demon, where we don’t need to beat shield on the main target to wound the ones we really wanted to wound. Unfortunately, it’s just too much to hope for that they clump in exactly the right way most of the time, although the quick initiative does make it a bit more likely. I would say that leaving this behind is going to be the right call unless we have an ally that can make incredible use out of the fire or who can pump up the value of wound, as the bonus effect is just too unreliable to bother taking the time to set up. 
 

@@ -2,27 +2,10 @@
 
 We’ll start by listing out an example of what your first three turns might look like when starting a scenario. The action outlined is the one we’ll use for initiative. 
 
-Turn One
-
-Turn Two
-
-Turn Three
-
-Top Action
-
-![](../../images/image4.png)
-
-![](../../images/image14.png)
-
-![](../../images/image6.png)
-
-Bottom Action
-
-![](../../images/image20.png)
-
-![](../../images/image26.png)
-
-![](../../images/image17.png)
+|  | Turn One | Turn Two | Turn Three |
+| --- | --- | --- | --- |
+| Top Action | ![](../../images/javelin.png) | ![](../../images/incendiary-throw.png) | ![](../../images/driving-inspiration.png) |
+| Bottom Action | ![](../../images/rallying-cry.png) | ![](../../images/resolved-courage.png) | ![](../../images/at-all-costs.png) |
 
 We’re making the assumption here that we feel confident getting our banner from room to room. It’s going to be ambitious to do this right from the getgo, so if it seems like it’ll be difficult I recommend waiting until you’ve rested twice and have entered the second room, which will buy you additional turns as well as save you valuable movement actions. Once you have a single level or a few perks, we should have no issues doing this. 
 

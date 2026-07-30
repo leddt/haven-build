@@ -1,6 +1,6 @@
 # Perks
 
-1. We will want some armor to survive the turns we invade enemy territory, so we begin by ignoring negative item effects. Removing the (\-1) is a spectacular bonus. ![](../../images/image44.png)
+1. We will want some armor to survive the turns we invade enemy territory, so we begin by ignoring negative item effects. Removing the (\-1) is a spectacular bonus. ![](../../images/character-sheet.png)
 2. Replacing our (\-1)s with rolling shield modifiers will improve both our AMD consistency and our tankiness. 
 3. Even though our main priority isn’t tanking, having a panic button gifting us two shield for a turn if the enemies have a bad draw will play around our lose condition quite nicely. You shouldn’t rush this perk, but if you ever gain two marks at once, I would pick this one up. 
 4. The extra movement when opening a door is good \- but not to run in, to run out. Try to run ahead of your party whenever possible, open a door, then use the movement from this to run backwards. The enemies will rush at you through the doorway, allowing you to take them on a few at a time. Just don’t attempt this if there are enemies that summon, as you these are enemies you don’t want to leave alone for too long. 

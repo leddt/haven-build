@@ -1,6 +1,6 @@
 # Introduction
 
-![](../images/image29.png)
+![](../images/character-mat.png)
 
 This guide will be much cleaner to read if you disable print layout (in the “view” menu). 
 

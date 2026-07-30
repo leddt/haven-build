@@ -2,19 +2,19 @@
 
 Banner
 
-![](../../images/image20.png)
+![](../../images/rallying-cry.png)
 
 Attacks
 
-![](../../images/image4.png)![](../../images/image6.png)![](../../images/image3.png)![](../../images/image14.png)
+![](../../images/javelin.png)![](../../images/driving-inspiration.png)![](../../images/pinning-charge.png)![](../../images/incendiary-throw.png)
 
 Movement
 
-![](../../images/image5.png)![](../../images/image19.png)![](../../images/image9.png)
+![](../../images/combined-effort.png)![](../../images/head-of-the-hammer.png)![](../../images/boldening-blow.png)
 
 Utility
 
-![](../../images/image11.png)![](../../images/image12.png)
+![](../../images/air-support.png)![](../../images/bolstering-shout.png)
 
 Bolstering Shout is a clean upgrade to [Regroup](#_f2fhrv8ka4t7). We probably don’t want both, especially since we’ve got more than enough wind to reliably activate Bolstering Shout at full potential. 
 

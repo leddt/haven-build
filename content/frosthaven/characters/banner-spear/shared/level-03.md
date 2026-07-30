@@ -1,6 +1,6 @@
 # Level 3
 
-![](../images/image48.png)![](../images/image46.png)
+![](../images/head-of-the-hammer.png)![](../images/let-them-come.png)
 
 Head of the Hammer provides a formation on a loss. Bannerspear math says you get 2XP from losses and 1XP from formations, so the impressive\-looking 3XP is par for the course. It’s one of our easiest formations to set up, just requiring an ally behind us (like [Tip of the Spear](#_9biaxul0blo7)), which makes it combo very easily with the [Reinforcement](#_b47um9ulhbgb) or any of our granted movement options. However, the fact that it stuns makes it a bit more valuable, since at least one of the enemies in question won’t be an immediate threat. The initiative is reliably slow here, which is not as bad for a stun as for a disarm, but still not as good as a fast initiative for this kind of action. 
 

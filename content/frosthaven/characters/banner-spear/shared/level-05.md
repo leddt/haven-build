@@ -1,6 +1,6 @@
 # Level 5
 
-![](../images/image40.png)![](../images/image33.png)
+![](../images/explosive-epicenter.png)![](../images/hold-the-line.png)
 
 Explosive Epicenter is a lot less impressive than it looks. Getting yourself *and* an ally into position between two lines of enemies just won’t happen. This can easily hit three things and you’ll get more than three at *best* once in a scenario, unless you’re putting yourself in undue harm to prove me wrong. Either there won’t be space to stand behind the melee line or the ranged line will be too far back. Still, [Unbreakable Wall](#_u2k00e745ao6) is a solid and reliable card that deals with retaliate, so having a second copy is fine. Plus, we might want to run the shield loss on [Unbreakable Wall](#_u2k00e745ao6), so this lets us keep the top formation while tanking up. The little movement boost can be nice to retreat from the enemies or pursue them, depending on what’s needed. 
 

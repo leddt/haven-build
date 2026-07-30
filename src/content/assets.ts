@@ -7,7 +7,7 @@ const assetModules = import.meta.glob("../../content/**/*.{png,jpg,jpeg,webp,gif
 /**
  * Resolve a markdown image src relative to a content page directory.
  * Example: assetBase `frosthaven/characters/banner-spear/shared`,
- * src `../images/image1.png` → content URL for that file.
+ * src `../images/resolved-courage.png` → content URL for that file.
  */
 export function resolveContentAssetUrl(
   assetBase: string,

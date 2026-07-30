@@ -2,19 +2,19 @@
 
 Banner
 
-![](../../images/image20.png)
+![](../../images/rallying-cry.png)
 
 Attacks
 
-![](../../images/image4.png)![](../../images/image6.png)![](../../images/image3.png)![](../../images/image14.png)
+![](../../images/javelin.png)![](../../images/driving-inspiration.png)![](../../images/pinning-charge.png)![](../../images/incendiary-throw.png)
 
 Movement
 
-![](../../images/image5.png)![](../../images/image19.png)![](../../images/image9.png)
+![](../../images/combined-effort.png)![](../../images/head-of-the-hammer.png)![](../../images/boldening-blow.png)
 
 Utility
 
-![](../../images/image7.png)![](../../images/image11.png)
+![](../../images/regroup.png)![](../../images/air-support.png)
 
 Boldening Blow gives us even more reliable banner movement, and makes it even more likely that our falcon will be productive. We should have no issues getting ourself into position at this point, so we cut [Set for the Charge](#_fheghtjp3um9). We’re relocating [Air Support](#_73xk82jjscx8) to a utility card for the time being; the top is still fantastic, of course, but we have enough tools that it’s likely our falcon might get more than one attack off. Even if the frontline is crowded, the fact that it has flying means you can get it behind enemy lines with Boldening Blow, empowering [Pinning Shot](#_1wdqzivm9ia1) and tanking a hit all at once. Don’t be afraid to use the top action if it’s particularly crowded, if there are shielded enemies, or if you’ve just got too much movement to do to justify standing still for a round. 
 

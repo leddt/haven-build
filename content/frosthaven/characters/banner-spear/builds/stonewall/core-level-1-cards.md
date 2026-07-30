@@ -2,15 +2,15 @@
 
 Tankiness
 
-![](../../images/image10.png)![](../../images/image16.png)![](../../images/image17.png)
+![](../../images/unbreakable-wall.png)![](../../images/deflecting-maneuver.png)![](../../images/at-all-costs.png)
 
 Movement
 
-![](../../images/image1.png)![](../../images/image5.png)![](../../images/image2.png)
+![](../../images/set-for-the-charge.png)![](../../images/combined-effort.png)![](../../images/tip-of-the-spear.png)
 
 Utility
 
-![](../../images/image18.png)![](../../images/image7.png)
+![](../../images/pincer-movement.png)![](../../images/regroup.png)
 
 These are our cards that we will bring to every single scenario, until we gain a few levels and find stronger replacements. We’ll be sorting cards into three major categories: formations, movement, and utility. Some cards will have the flexibility to be used in multiple roles; as these arise, we’ll mark these in pink. 
 

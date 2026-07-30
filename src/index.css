@@ -135,4 +135,30 @@
   .prose-guide p:has(> .guide-image) {
     @apply my-4 flex flex-wrap items-end gap-2;
   }
+
+  .prose-guide table {
+    @apply my-6 w-full border-collapse text-sm;
+  }
+
+  .prose-guide th,
+  .prose-guide td {
+    @apply border border-border px-2 py-2 align-middle;
+  }
+
+  .prose-guide th {
+    @apply text-center font-semibold;
+  }
+
+  .prose-guide td:first-child,
+  .prose-guide th:first-child {
+    @apply whitespace-nowrap text-left font-medium;
+  }
+
+  .prose-guide table .guide-image {
+    margin: 0;
+  }
+
+  .prose-guide table p:has(> .guide-image) {
+    @apply my-0 flex justify-center;
+  }
 }
