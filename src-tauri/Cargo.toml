@@ -1,6 +1,6 @@
 [package]
 name = "haven-build"
-version = "0.2.0"
+version = "0.2.1"
 description = "Personal character build guide companion"
 authors = ["you"]
 edition = "2021"
