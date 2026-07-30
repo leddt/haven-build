@@ -12,17 +12,17 @@ Top Action
 
 ![](../../images/image4.png)
 
-![](../../images/image57.png)
+![](../../images/image14.png)
 
 ![](../../images/image6.png)
 
 Bottom Action
 
-![](../../images/image55.png)
+![](../../images/image20.png)
 
-![](../../images/image38.png)
+![](../../images/image26.png)
 
-![](../../images/image48.png)
+![](../../images/image17.png)
 
 We’re making the assumption here that we feel confident getting our banner from room to room. It’s going to be ambitious to do this right from the getgo, so if it seems like it’ll be difficult I recommend waiting until you’ve rested twice and have entered the second room, which will buy you additional turns as well as save you valuable movement actions. Once you have a single level or a few perks, we should have no issues doing this. 
 

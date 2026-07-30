@@ -2,7 +2,7 @@
 
 Formations
 
-![](../../images/image38.png)![](../../images/image55.png)![](../../images/image46.png)
+![](../../images/image26.png)![](../../images/image20.png)![](../../images/image37.png)
 
 Movement
 
@@ -10,7 +10,7 @@ Movement
 
 Utility
 
-![](../../images/image25.png)![](../../images/image46.png)![](../../images/image7.png)![](../../images/image48.png)
+![](../../images/image10.png)![](../../images/image18.png)![](../../images/image7.png)![](../../images/image17.png)
 
 Meat Grinder is a very strong formation. It does put us in a bit of danger, but the damage potential is one of our strongest yet, and if we don’t feel safe we have the bottom to fall back on. We drop [Javelin](#_yjv3bbxgjo2l) as we’re hoping not to need a ranged attack; however, if you’re in a large and crowded party, I would drop [At All Costs](#_b47um9ulhbgb) instead, since we won’t need to rely on that summon as frequently. Without [Javelin](#_yjv3bbxgjo2l) we have less actions that we’re excited to move with, so we’ll be looking at either [Tip of the Spear](#_9biaxul0blo7) or Meat Grinder as our third key movement option. 
 

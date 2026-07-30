@@ -2,7 +2,7 @@
 
 Banner
 
-![](../../images/image55.png)
+![](../../images/image20.png)
 
 Attacks
 
@@ -14,7 +14,7 @@ Movement
 
 Utility
 
-![](../../images/image48.png)![](../../images/image7.png)
+![](../../images/image17.png)![](../../images/image7.png)
 
 These are our cards that we will bring to every single scenario, until we gain a few levels and find stronger replacements. We’ll be sorting cards into four major categories: banner(s), attacks, movement, and utility. Some cards will have the flexibility to be used in multiple roles; as these arise, we’ll mark these in pink. 
 

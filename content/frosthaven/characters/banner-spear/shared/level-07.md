@@ -1,6 +1,6 @@
 # Level 7
 
-![](../images/image39.png)![](../images/image38.png)
+![](../images/image23.png)![](../images/image38.png)
 
 The top action from Lead from Afar is much the same as that from [Pinning Charge](#_1wdqzivm9ia1), except that it scales better with the number of allies. This will probably be an attack 6\-8 most of the time if you have a crowded party, and in theory could be an attack 14 but only if you spend every bit of luck for the next seven years. All of the discussion from that card (except the immobilize) holds: in a two player party, you don’t want this. In a large party with a swarm of summons, you absolutely do. 
 

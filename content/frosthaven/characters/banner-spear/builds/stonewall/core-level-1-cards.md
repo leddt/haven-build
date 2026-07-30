@@ -2,7 +2,7 @@
 
 Tankiness
 
-![](../../images/image25.png)![](../../images/image45.png)![](../../images/image48.png)
+![](../../images/image10.png)![](../../images/image16.png)![](../../images/image17.png)
 
 Movement
 
@@ -10,7 +10,7 @@ Movement
 
 Utility
 
-![](../../images/image46.png)![](../../images/image7.png)
+![](../../images/image18.png)![](../../images/image7.png)
 
 These are our cards that we will bring to every single scenario, until we gain a few levels and find stronger replacements. We’ll be sorting cards into three major categories: formations, movement, and utility. Some cards will have the flexibility to be used in multiple roles; as these arise, we’ll mark these in pink. 
 

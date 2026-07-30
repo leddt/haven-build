@@ -2,7 +2,7 @@
 
 Tankiness
 
-![](../../images/image25.png)![](../../images/image41.png)![](../../images/image40.png)![](../../images/image33.png)
+![](../../images/image10.png)![](../../images/image15.png)![](../../images/image21.png)![](../../images/image22.png)
 
 Attacks
 
@@ -10,7 +10,7 @@ Attacks
 
 Movement
 
-![](../../images/image1.png)![](../../images/image5.png)![](../../images/image46.png)![](../../images/image9.png)
+![](../../images/image1.png)![](../../images/image5.png)![](../../images/image37.png)![](../../images/image9.png)
 
 Utility
 
