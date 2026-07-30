@@ -36,7 +36,16 @@ Then run from the app menu, or:
 
 ## Packages
 
-**Debian / Ubuntu package** (small; uses system WebKit):
+**GitHub Release** (`.deb`, `.AppImage`, Windows NSIS):
+
+```bash
+git tag v0.2.0
+git push origin v0.2.0
+```
+
+The `Release` workflow builds on Ubuntu 22.04 and Windows, then attaches artifacts to the GitHub release for that tag.
+
+**Debian / Ubuntu package** (local; small; uses system WebKit):
 
 ```bash
 npm run build:deb
@@ -44,7 +53,7 @@ npm run build:deb
 
 Output: `src-tauri/target/release/bundle/deb/`
 
-**AppImage** (Arch / CachyOS): linuxdeploy’s bundled `strip` breaks on modern system libraries. Build with stripping disabled:
+**AppImage** (local; Arch / CachyOS): linuxdeploy’s bundled `strip` breaks on modern system libraries. Build with stripping disabled:
 
 ```bash
 npm run build:appimage
