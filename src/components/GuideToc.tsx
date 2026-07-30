@@ -4,7 +4,6 @@ import type { PageEntry, PageScope } from "@/content/types";
 import { locationPath, type AppLocation } from "@/content/types";
 import { cn } from "@/lib/utils";
 import { useProgress } from "@/state/progress";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
 function TocLink({
@@ -26,8 +25,8 @@ function TocLink({
           "flex items-center gap-2 rounded-md px-2 py-1.5 text-sm transition-colors",
           done && "text-muted-foreground/60",
           isActive
-            ? "bg-muted font-medium text-foreground"
-            : "hover:bg-muted/70",
+            ? "bg-sidebar-accent font-medium text-sidebar-accent-foreground"
+            : "hover:bg-sidebar-accent/70",
         )
       }
     >
@@ -87,30 +86,28 @@ export function GuideToc({
   sharedPages: PageEntry[];
 }) {
   return (
-    <ScrollArea className="h-full">
-      <nav className="space-y-5 p-3">
-        <TocGroup
-          label="This build"
-          pages={buildPages}
-          base={{
-            gameId,
-            characterId,
-            buildId,
-            scope: "build",
-          }}
-        />
-        <Separator />
-        <TocGroup
-          label="Character"
-          pages={sharedPages}
-          base={{
-            gameId,
-            characterId,
-            buildId,
-            scope: "shared",
-          }}
-        />
-      </nav>
-    </ScrollArea>
+    <nav className="space-y-5 p-3">
+      <TocGroup
+        label="This build"
+        pages={buildPages}
+        base={{
+          gameId,
+          characterId,
+          buildId,
+          scope: "build",
+        }}
+      />
+      <Separator />
+      <TocGroup
+        label="Character"
+        pages={sharedPages}
+        base={{
+          gameId,
+          characterId,
+          buildId,
+          scope: "shared",
+        }}
+      />
+    </nav>
   );
 }

@@ -1,15 +1,19 @@
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { getCurrentWindow } from "@tauri-apps/api/window";
 import { Bookmark, Settings } from "lucide-react";
 import { WindowControls } from "@/components/WindowControls";
 import { WindowResizeHandles } from "@/components/WindowResizeHandles";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
+function isBuildRoute(pathname: string) {
+  return /^\/g\/[^/]+\/c\/[^/]+\/b\/[^/]+/.test(pathname);
+}
+
 export function AppChrome() {
   const location = useLocation();
   const onSettings = location.pathname.startsWith("/settings");
   const onBookmarks = location.pathname.startsWith("/bookmarks");
+  const inBuild = isBuildRoute(location.pathname);
   const existingFrom = (
     location.state as { from?: typeof location } | null
   )?.from;
@@ -21,18 +25,15 @@ export function AppChrome() {
       : { from: location };
 
   return (
-    <div className="relative flex h-full min-h-0 flex-col overflow-hidden">
+    <div className="relative flex h-full min-h-0 flex-col overflow-hidden rounded-xl border border-sidebar-border bg-sidebar text-sidebar-foreground">
       <WindowResizeHandles />
       <header
-        className="flex shrink-0 items-center justify-between gap-4 border-b border-border pl-4"
+        className="flex shrink-0 items-center justify-between gap-4 pl-4"
         data-tauri-drag-region
-        onDoubleClick={() => {
-          void getCurrentWindow().toggleMaximize();
-        }}
       >
         <Link
           to="/"
-          className="font-display text-xl font-semibold tracking-tight"
+          className="font-display text-xl font-semibold tracking-tight text-sidebar-foreground"
         >
           HavenBuild
         </Link>
@@ -60,8 +61,18 @@ export function AppChrome() {
           <WindowControls />
         </div>
       </header>
-      <div className={cn("min-h-0 flex-1 overflow-hidden")}>
-        <Outlet />
+      <div className="min-h-0 flex-1 overflow-hidden">
+        {inBuild ? (
+          <Outlet />
+        ) : (
+          <div
+            className={cn(
+              "mx-2 mb-2 mt-0 h-[calc(100%-0.5rem)] min-h-0 overflow-hidden rounded-xl bg-background text-foreground shadow-sm",
+            )}
+          >
+            <Outlet />
+          </div>
+        )}
       </div>
     </div>
   );

@@ -6,6 +6,13 @@ import { MarkdownPage } from "@/components/MarkdownPage";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
+  Sidebar,
+  SidebarContent,
+  SidebarHeader,
+  SidebarInset,
+  SidebarProvider,
+} from "@/components/ui/sidebar";
+import {
   findPage,
   getBuild,
   getBuildPages,
@@ -30,13 +37,13 @@ export function ReaderLayout() {
   }
 
   return (
-    <div className="flex h-full min-h-0">
-      <aside className="flex w-64 shrink-0 flex-col border-r border-border bg-sidebar text-sidebar-foreground">
-        <div className="space-y-1 border-b border-border px-3 py-3">
-          <p className="text-xs text-muted-foreground">{game.title}</p>
-          <p className="font-medium leading-tight">{character.title}</p>
-          <p className="text-sm text-muted-foreground">{build.title}</p>
-          <div className="flex flex-wrap gap-x-2 gap-y-1 pt-1 text-sm">
+    <SidebarProvider className="h-full min-h-0!">
+      <Sidebar variant="inset" collapsible="none">
+        <SidebarHeader className="gap-1 border-b border-sidebar-border">
+          <p className="px-2 text-xs text-muted-foreground">{game.title}</p>
+          <p className="px-2 font-medium leading-tight">{character.title}</p>
+          <p className="px-2 text-sm text-muted-foreground">{build.title}</p>
+          <div className="flex flex-wrap gap-x-2 gap-y-1 px-2 pt-1 text-sm">
             <Button asChild variant="link" size="sm" className="h-auto px-0">
               <Link to="/">All games</Link>
             </Button>
@@ -49,8 +56,8 @@ export function ReaderLayout() {
               <Link to={`/g/${gameId}/c/${characterId}`}>Build</Link>
             </Button>
           </div>
-        </div>
-        <div className="min-h-0 flex-1">
+        </SidebarHeader>
+        <SidebarContent>
           <GuideToc
             gameId={gameId}
             characterId={characterId}
@@ -58,12 +65,12 @@ export function ReaderLayout() {
             buildPages={buildPages}
             sharedPages={sharedPages}
           />
-        </div>
-      </aside>
-      <div className="min-h-0 min-w-0 flex-1">
+        </SidebarContent>
+      </Sidebar>
+      <SidebarInset>
         <Outlet />
-      </div>
-    </div>
+      </SidebarInset>
+    </SidebarProvider>
   );
 }
 
