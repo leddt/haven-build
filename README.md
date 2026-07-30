@@ -43,7 +43,13 @@ git tag v0.2.0
 git push origin v0.2.0
 ```
 
-The `Release` workflow builds on Ubuntu 22.04 and Windows, then attaches artifacts to the GitHub release for that tag.
+The `Release` workflow builds:
+
+- `.deb` on Ubuntu 22.04 (broader glibc compatibility)
+- `.AppImage` on Ubuntu 24.04 (newer bundled libs — better on Arch / CachyOS)
+- Windows NSIS on `windows-latest`
+
+Then attaches artifacts to the GitHub release for that tag.
 
 **Debian / Ubuntu package** (local; small; uses system WebKit):
 

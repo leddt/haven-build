@@ -14,8 +14,12 @@ jobs:
       fail-fast: false
       matrix:
         include:
+          # Older glibc baseline → wider .deb compatibility on Debian/Ubuntu LTS.
           - platform: ubuntu-22.04
-            bundles: deb,appimage
+            bundles: deb
+          # Newer host libs → snappier AppImage on modern distros (Arch, CachyOS, etc.).
+          - platform: ubuntu-24.04
+            bundles: appimage
           - platform: windows-latest
             bundles: nsis
 
@@ -40,7 +44,7 @@ jobs:
           workspaces: src-tauri -> target
 
       - name: Install Linux dependencies
-        if: matrix.platform == 'ubuntu-22.04'
+        if: startsWith(matrix.platform, 'ubuntu-')
         run: |
           sudo apt-get update
           sudo apt-get install -y \
@@ -65,8 +69,8 @@ jobs:
           releaseBody: |
             ## Downloads
 
-            - **Linux `.deb`** — Debian / Ubuntu
-            - **Linux `.AppImage`** — portable (Arch, CachyOS, etc.)
+            - **Linux `.deb`** — Debian / Ubuntu (built on Ubuntu 22.04)
+            - **Linux `.AppImage`** — portable (built on Ubuntu 24.04 for newer libs)
             - **Windows `.exe`** — NSIS installer
           releaseDraft: false
           prerelease: false
