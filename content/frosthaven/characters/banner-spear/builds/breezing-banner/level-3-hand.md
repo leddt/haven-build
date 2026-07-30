@@ -1,5 +1,7 @@
 # Level 3 Hand
 
+[Level 3 Level\-up Choice](#level-03)
+
 Banner
 
 ![](../../images/rallying-cry.png)
@@ -16,6 +18,4 @@ Utility
 
 ![](../../images/at-all-costs.png)![](../../images/regroup.png)
 
-Head of the Hammer is a clean upgrade to [Tip of the Spear](#_9biaxul0blo7): the same movement at a slower initiative while also providing our desired element. We probably won’t much care about the muddle, but that’s perfectly fine; the card still does plenty if the muddle never happens. We’re up to two wind sources, so if you’ve found yourself occasionally in melee range, consider [Deflecting Maneuver](#_hu136o2o5ou) over [Incendiary Throw](#_8o6bxqg6p44y). 
-
-[Level 4 Level\-up Choice](#_73xk82jjscx8)
+Head of the Hammer is a clean upgrade to [Tip of the Spear](#tip-of-the-spear): the same movement at a slower initiative while also providing our desired element. We probably won’t much care about the muddle, but that’s perfectly fine; the card still does plenty if the muddle never happens. We’re up to two wind sources, so if you’ve found yourself occasionally in melee range, consider [Deflecting Maneuver](#deflecting-maneuver) over [Incendiary Throw](#incendiary-throw).

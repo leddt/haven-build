@@ -1,5 +1,7 @@
 # Level 6 Hand
 
+[Level 6 Level\-up Choice](#level-06)
+
 Banner
 
 ![](../../images/rallying-cry.png)
@@ -16,6 +18,4 @@ Utility
 
 ![](../../images/air-support.png)![](../../images/bolstering-shout.png)
 
-Bolstering Shout is a clean upgrade to [Regroup](#_f2fhrv8ka4t7). We probably don’t want both, especially since we’ve got more than enough wind to reliably activate Bolstering Shout at full potential. 
-
-[Level 7 Level\-up Choice](#_evryw5h9qipk)
+Bolstering Shout is a clean upgrade to [Regroup](#regroup). We probably don’t want both, especially since we’ve got more than enough wind to reliably activate Bolstering Shout at full potential.

@@ -1,385 +1,118 @@
 {
-  "_p81ahpen7zbw": {
-    "scope": "shared",
-    "pageId": "introduction"
-  },
-  "_9kr3sm4jm8ri": {
-    "scope": "shared",
-    "pageId": "level-01-cards"
-  },
-  "_b47um9ulhbgb": {
+  "at-all-costs": {
     "scope": "shared",
     "pageId": "level-01-cards",
     "heading": "at-all-costs"
   },
-  "_zgu5oklkgem7": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "resolved-courage"
-  },
-  "_9biaxul0blo7": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "tip-of-the-spear"
-  },
-  "_u2k00e745ao6": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "unbreakable-wall"
-  },
-  "_768ksnsz0b8i": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "pincer-movement"
-  },
-  "_bj30gaanrifd": {
+  "combined-effort": {
     "scope": "shared",
     "pageId": "level-01-cards",
     "heading": "combined-effort"
   },
-  "_oncl1tu76ylp": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "rallying-cry"
-  },
-  "_yc7xrq7k6p0v": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "driving-inspiration"
-  },
-  "_f2fhrv8ka4t7": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "regroup"
-  },
-  "_fheghtjp3um9": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "set-for-the-charge"
-  },
-  "_yjv3bbxgjo2l": {
-    "scope": "shared",
-    "pageId": "level-01-cards",
-    "heading": "javelin"
-  },
-  "_hu136o2o5ou": {
+  "deflecting-maneuver": {
     "scope": "shared",
     "pageId": "level-01-cards",
     "heading": "deflecting-maneuver"
   },
-  "_8o6bxqg6p44y": {
+  "driving-inspiration": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "driving-inspiration"
+  },
+  "incendiary-throw": {
     "scope": "shared",
     "pageId": "level-01-cards",
     "heading": "incendiary-throw"
   },
-  "_bjnzyrrdrijr": {
+  "javelin": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "javelin"
+  },
+  "pincer-movement": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "pincer-movement"
+  },
+  "rallying-cry": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "rallying-cry"
+  },
+  "regroup": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "regroup"
+  },
+  "resolved-courage": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "resolved-courage"
+  },
+  "set-for-the-charge": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "set-for-the-charge"
+  },
+  "tip-of-the-spear": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "tip-of-the-spear"
+  },
+  "unbreakable-wall": {
+    "scope": "shared",
+    "pageId": "level-01-cards",
+    "heading": "unbreakable-wall"
+  },
+  "level-01-cards": {
+    "scope": "shared",
+    "pageId": "level-01-cards"
+  },
+  "level-02": {
     "scope": "shared",
     "pageId": "level-02"
   },
-  "_1wdqzivm9ia1": {
-    "scope": "shared",
-    "pageId": "level-02"
-  },
-  "_ltgmq3nx49ls": {
+  "level-03": {
     "scope": "shared",
     "pageId": "level-03"
   },
-  "_73xk82jjscx8": {
+  "level-04": {
     "scope": "shared",
     "pageId": "level-04"
   },
-  "_vcsc412wsl00": {
+  "level-05": {
     "scope": "shared",
     "pageId": "level-05"
   },
-  "_fr2ygoeo0hfq": {
+  "level-06": {
     "scope": "shared",
     "pageId": "level-06"
   },
-  "_evryw5h9qipk": {
+  "level-07": {
     "scope": "shared",
     "pageId": "level-07"
   },
-  "_8efd26767tlw": {
+  "level-08": {
     "scope": "shared",
     "pageId": "level-08"
   },
-  "_qga2kckizsc5": {
+  "level-09": {
     "scope": "shared",
     "pageId": "level-09"
   },
-  "_3st1kylcsprr": {
+  "breezing-banner/summary": {
     "scope": "build",
-    "buildId": "tactician",
-    "pageId": "summary"
+    "pageId": "summary",
+    "buildId": "breezing-banner"
   },
-  "_916yt4oqmln1": {
+  "stonewall/summary": {
     "scope": "build",
-    "buildId": "tactician",
-    "pageId": "summary"
+    "pageId": "summary",
+    "buildId": "stonewall"
   },
-  "_l4dl9umy27uy": {
+  "tactician/summary": {
     "scope": "build",
-    "buildId": "tactician",
-    "pageId": "starting-items"
-  },
-  "_l729rurionrr": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "core-level-1-cards"
-  },
-  "_vchfhln36k0g": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "example-level-one-hand"
-  },
-  "_z8pm9wjkla6j": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "opener"
-  },
-  "_nqohxodp7mwd": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "strategy-for-leveling"
-  },
-  "_ykttb1qope6e": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-2-hand"
-  },
-  "_6jedt0um12j7": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-3-hand"
-  },
-  "_6zljupfljkda": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-4-hand"
-  },
-  "_3gtphlyfgx0k": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-5-hand"
-  },
-  "_fxejm3oc4oxb": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-6-hand"
-  },
-  "_p5rrfqwurxno": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-7-hand"
-  },
-  "_c6inacov5rpq": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-8-hand"
-  },
-  "_59k2bp66yywn": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "level-9-hand"
-  },
-  "_a6dq769kp5w1": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "perks"
-  },
-  "_j5a6xansle0n": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "crafting"
-  },
-  "_wfmh3a96419s": {
-    "scope": "build",
-    "buildId": "tactician",
-    "pageId": "enhancements"
-  },
-  "_m1xjkgpcs7cb": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "summary"
-  },
-  "_ydaqocq9xs69": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "summary"
-  },
-  "_ggxz7123bgdo": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "starting-items"
-  },
-  "_q1tf5qf1ha2a": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "core-level-1-cards"
-  },
-  "_uqz96e2wqp8t": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "example-level-one-hand"
-  },
-  "_bdzlifs78ob": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "opener"
-  },
-  "_ryv6oywq0a9b": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "strategy-for-leveling"
-  },
-  "_3n9ufj4pr9yy": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-2-hand"
-  },
-  "_yv20x65ghyb": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-3-hand"
-  },
-  "_tnmrb75o5s8p": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-4-hand"
-  },
-  "_4fshr29or6ho": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-5-hand"
-  },
-  "_2422qxx9c2fh": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-6-hand"
-  },
-  "_mo2ven3qbkqo": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-7-hand"
-  },
-  "_8vuz7plww1f3": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-8-hand"
-  },
-  "_hflt3w8skx13": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "level-9-hand"
-  },
-  "_5ic76hlo66we": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "perks"
-  },
-  "_a1zq33j34hpx": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "crafting"
-  },
-  "_ommkwc8pvbow": {
-    "scope": "build",
-    "buildId": "stonewall",
-    "pageId": "enhancements"
-  },
-  "_7652voiipj9e": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "summary"
-  },
-  "_rggu3f79bw1o": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "summary"
-  },
-  "_ux1f5zuadnsw": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "starting-items"
-  },
-  "_ju7ueba15uvn": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "core-level-1-cards"
-  },
-  "_b37zxcb6dcyh": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "example-level-one-hand"
-  },
-  "_3rn8kswdv0vi": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "opener"
-  },
-  "_u8g4jnkhmyb1": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "strategy-for-leveling"
-  },
-  "_wo84ndrh4fn6": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-2-hand"
-  },
-  "_4zmtk6wf47t0": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-3-hand"
-  },
-  "_p3mfdicptqx6": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-4-hand"
-  },
-  "_2e36qepw8u9": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-5-hand"
-  },
-  "_lp2v1kfrfqd0": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-6-hand"
-  },
-  "_rb7g1taupcvp": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-7-hand"
-  },
-  "_ok44yby5q4cn": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-8-hand"
-  },
-  "_gmpmhk58f8do": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "level-9-hand"
-  },
-  "_mpovkp7r5lbz": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "perks"
-  },
-  "_jp48q9hzuwtx": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "crafting"
-  },
-  "_tf7jzkuh7h8i": {
-    "scope": "build",
-    "buildId": "breezing-banner",
-    "pageId": "enhancements"
-  },
-  "_lpa8n5sow2to": {
-    "scope": "shared",
-    "pageId": "level-02"
+    "pageId": "summary",
+    "buildId": "tactician"
   }
 }

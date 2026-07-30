@@ -10,8 +10,8 @@ Take No Prisoners is very impressive\-looking. In theory this represents nonloss
 
 The bottom action is a simple, powerful banner. It deals one direct damage to all enemies within a respectable range of four. This is strongest against swarms of weak, shielded enemies, and in large player counts where the number of targets is likely to be high. It also has a strong health pool, which means it is very unlikely to die by mistake. It’s not really a banner that you need to plan your build or your team around, and you don’t need to position it very precisely. You can drop it in most any scenario and it’ll justify itself with massive amounts of damage over time as long as you can grant it enough movement to keep up. 
 
-[Tactician](#_916yt4oqmln1): Take No Prisoners is an easy choice. It’s the mother of all formations and we should be able to pull it off with ease. 
+[Tactician](#tactician/summary): Take No Prisoners is an easy choice. It’s the mother of all formations and we should be able to pull it off with ease. 
 
-[Stonewall](#_ydaqocq9xs69): Neither of these make us better at tanking, so we’re going back for the other level eight card. 
+[Stonewall](#stonewall/summary): Neither of these make us better at tanking, so we’re going back for the other level eight card. 
 
-[Breezing Banner](#_rggu3f79bw1o): Hail of Spears does a lot for us, and might even incentivize us to bring a second banner for additional power.
+[Breezing Banner](#breezing-banner/summary): Hail of Spears does a lot for us, and might even incentivize us to bring a second banner for additional power.

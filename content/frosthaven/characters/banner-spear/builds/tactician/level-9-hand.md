@@ -1,5 +1,7 @@
 # Level 9 Hand
 
+[Level 9 Level\-up Choice](#level-09)
+
 Formations
 
 ![](../../images/let-them-come.png)![](../../images/barricade.png)![](../../images/tip-of-the-spear.png)
@@ -14,4 +16,4 @@ Utility
 
 ![](../../images/explosive-epicenter.png)
 
-The ultimate formation bumps [Pincer Movement](#_768ksnsz0b8i) out of our hand. If we do still want to aggressively loot, swap it in for either of our move fours; we have enough decent move 3 actions that we can get away with it if the scenario isn’t too punishing. Otherwise, we have eight fantastic formation options overlapping with six fantastic movement options. We should find something decent to do every single turn, while keeping the enemies more or less permanently wounded and poisoned.
+The ultimate formation bumps [Pincer Movement](#pincer-movement) out of our hand. If we do still want to aggressively loot, swap it in for either of our move fours; we have enough decent move 3 actions that we can get away with it if the scenario isn’t too punishing. Otherwise, we have eight fantastic formation options overlapping with six fantastic movement options. We should find something decent to do every single turn, while keeping the enemies more or less permanently wounded and poisoned.
