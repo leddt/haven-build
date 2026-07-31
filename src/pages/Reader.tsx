@@ -4,7 +4,6 @@ import { Bookmark, Check } from "lucide-react";
 import { GuideToc } from "@/components/GuideToc";
 import { MarkdownPage } from "@/components/MarkdownPage";
 import { Button } from "@/components/ui/button";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Sidebar,
   SidebarContent,
@@ -199,7 +198,7 @@ function PageBody({ loc }: { loc: AppLocation }) {
           </Button>
         </div>
       </div>
-      <ScrollArea className="flex-1">
+      <div className="min-h-0 flex-1 overflow-auto">
         <div className="px-6 py-8">
           <MarkdownPage
             content={markdown}
@@ -210,7 +209,7 @@ function PageBody({ loc }: { loc: AppLocation }) {
             pageKey={key}
           />
         </div>
-      </ScrollArea>
+      </div>
     </div>
   );
 }
