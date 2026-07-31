@@ -11,7 +11,8 @@
     "tauri": "tauri",
     "build:appimage": "NO_STRIP=true tauri build --bundles appimage",
     "build:deb": "tauri build --bundles deb",
-    "install:desktop": "bash scripts/install-desktop.sh"
+    "install:desktop": "bash scripts/install-desktop.sh",
+    "version": "node scripts/sync-cargo-version.mjs && git add src-tauri/Cargo.toml src-tauri/Cargo.lock"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.23",

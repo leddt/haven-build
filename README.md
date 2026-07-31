@@ -46,9 +46,12 @@ Then run from the app menu, or:
 **GitHub Release** (`.deb`, `.AppImage`, Windows NSIS):
 
 ```bash
-git tag v0.2.0
-git push origin v0.2.0
+npm version patch   # or minor / major — bumps package.json, syncs Cargo, commits + tags
+git push origin HEAD --follow-tags
 ```
+
+`package.json` is the source of truth for the app version. Tauri reads it via
+`src-tauri/tauri.conf.json`; Cargo is kept in sync by the npm `version` hook.
 
 The `Release` workflow builds:
 
