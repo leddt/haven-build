@@ -1,10 +1,20 @@
-import { useEffect, useState, type ReactNode } from "react";
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  type ReactNode,
+} from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { resolveContentAssetUrl } from "@/content/assets";
 import { resolveGuideHref, slugifyHeading } from "@/content/links";
+import { remarkCheckId } from "@/content/remarkCheckId";
 import { cn } from "@/lib/utils";
+import { useProgress } from "@/state/progress";
+
+const TaskCheckIdContext = createContext<string | undefined>(undefined);
 
 function GuideImage({ src, alt }: { src: string; alt: string }) {
   const [wide, setWide] = useState(false);
@@ -41,12 +51,46 @@ function scrollToHeading(headingId: string) {
   });
 }
 
+function TaskCheckbox({
+  pageKey,
+  mdDefault,
+}: {
+  pageKey: string;
+  mdDefault: boolean;
+}) {
+  const checkId = useContext(TaskCheckIdContext);
+  const { isCheckboxChecked, toggleCheckbox } = useProgress();
+
+  if (!checkId) {
+    return (
+      <input
+        type="checkbox"
+        className="task-list-checkbox"
+        checked={mdDefault}
+        disabled
+        readOnly
+      />
+    );
+  }
+
+  const checked = isCheckboxChecked(pageKey, checkId, mdDefault);
+  return (
+    <input
+      type="checkbox"
+      className="task-list-checkbox"
+      checked={checked}
+      onChange={() => toggleCheckbox(pageKey, checkId, mdDefault)}
+    />
+  );
+}
+
 export function MarkdownPage({
   content,
   assetBase,
   gameId,
   characterId,
   buildId,
+  pageKey,
 }: {
   content: string;
   /** Path under content/, e.g. frosthaven/characters/banner-spear/shared */
@@ -54,6 +98,7 @@ export function MarkdownPage({
   gameId: string;
   characterId: string;
   buildId?: string;
+  pageKey: string;
 }) {
   const navigate = useNavigate();
   const location = useLocation();
@@ -66,7 +111,7 @@ export function MarkdownPage({
   return (
     <article className="prose-guide">
       <ReactMarkdown
-        remarkPlugins={[remarkGfm]}
+        remarkPlugins={[remarkGfm, remarkCheckId]}
         components={{
           h2: ({ children }) => {
             const id = slugifyHeading(headingText(children));
@@ -74,6 +119,40 @@ export function MarkdownPage({
               <h2 id={id} className="scroll-mt-4">
                 {children}
               </h2>
+            );
+          },
+          li: ({ children, className, ...props }) => {
+            const checkId =
+              typeof (props as { "data-check-id"?: unknown })[
+                "data-check-id"
+              ] === "string"
+                ? (props as { "data-check-id": string })["data-check-id"]
+                : undefined;
+            const isTask = Boolean(
+              className?.includes("task-list-item") || checkId,
+            );
+            return (
+              <TaskCheckIdContext.Provider value={checkId}>
+                <li
+                  className={cn(
+                    className,
+                    isTask && "task-list-item",
+                    checkId && "task-list-item-interactive",
+                    isTask && !checkId && "task-list-item-static",
+                  )}
+                  data-check-id={checkId}
+                >
+                  {children}
+                </li>
+              </TaskCheckIdContext.Provider>
+            );
+          },
+          input: ({ type, checked, ...props }) => {
+            if (type !== "checkbox") {
+              return <input type={type} checked={checked} {...props} />;
+            }
+            return (
+              <TaskCheckbox pageKey={pageKey} mdDefault={Boolean(checked)} />
             );
           },
           a: ({ href, children }) => {

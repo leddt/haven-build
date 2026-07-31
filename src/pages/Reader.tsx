@@ -198,6 +198,7 @@ function PageBody({ loc }: { loc: AppLocation }) {
             gameId={gameId}
             characterId={characterId}
             buildId={buildId}
+            pageKey={key}
           />
         </div>
       </ScrollArea>

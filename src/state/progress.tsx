@@ -10,9 +10,12 @@ import {
 import type { AppLocation, Bookmark } from "@/content/types";
 import { pageKey } from "@/content/types";
 import {
+  checkboxStateKey,
   loadBookmarks,
+  loadCheckboxState,
   loadDoneKeys,
   saveBookmarks,
+  saveCheckboxState,
   saveDoneKeys,
   saveLastLocation,
 } from "@/state/persistence";
@@ -26,6 +29,16 @@ type ProgressContextValue = {
   isBookmarked: (loc: AppLocation) => boolean;
   toggleBookmark: (loc: AppLocation, label: string) => void;
   rememberLocation: (loc: AppLocation) => void;
+  isCheckboxChecked: (
+    pageKey: string,
+    checkId: string,
+    mdDefault: boolean,
+  ) => boolean;
+  toggleCheckbox: (
+    pageKey: string,
+    checkId: string,
+    mdDefault: boolean,
+  ) => void;
 };
 
 const ProgressContext = createContext<ProgressContextValue | null>(null);
@@ -34,13 +47,21 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
   const [ready, setReady] = useState(false);
   const [doneKeys, setDoneKeys] = useState<Set<string>>(new Set());
   const [bookmarks, setBookmarks] = useState<Bookmark[]>([]);
+  const [checkboxState, setCheckboxState] = useState<Record<string, boolean>>(
+    {},
+  );
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([loadDoneKeys(), loadBookmarks()]).then(([done, marks]) => {
+    Promise.all([
+      loadDoneKeys(),
+      loadBookmarks(),
+      loadCheckboxState(),
+    ]).then(([done, marks, checks]) => {
       if (cancelled) return;
       setDoneKeys(new Set(done));
       setBookmarks(marks);
+      setCheckboxState(checks);
       setReady(true);
     });
     return () => {
@@ -86,6 +107,32 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     void saveLastLocation(loc);
   }, []);
 
+  const isCheckboxChecked = useCallback(
+    (page: string, checkId: string, mdDefault: boolean) => {
+      const key = checkboxStateKey(page, checkId);
+      if (Object.prototype.hasOwnProperty.call(checkboxState, key)) {
+        return checkboxState[key]!;
+      }
+      return mdDefault;
+    },
+    [checkboxState],
+  );
+
+  const toggleCheckbox = useCallback(
+    (page: string, checkId: string, mdDefault: boolean) => {
+      const key = checkboxStateKey(page, checkId);
+      setCheckboxState((prev) => {
+        const current = Object.prototype.hasOwnProperty.call(prev, key)
+          ? prev[key]!
+          : mdDefault;
+        const next = { ...prev, [key]: !current };
+        void saveCheckboxState(next);
+        return next;
+      });
+    },
+    [],
+  );
+
   const value = useMemo(
     () => ({
       ready,
@@ -96,6 +143,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       isBookmarked,
       toggleBookmark,
       rememberLocation,
+      isCheckboxChecked,
+      toggleCheckbox,
     }),
     [
       ready,
@@ -106,6 +155,8 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
       isBookmarked,
       toggleBookmark,
       rememberLocation,
+      isCheckboxChecked,
+      toggleCheckbox,
     ],
   );
 

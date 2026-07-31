@@ -78,3 +78,17 @@ export async function loadBookmarks(): Promise<Bookmark[]> {
 export async function saveBookmarks(bookmarks: Bookmark[]): Promise<void> {
   await setItem("bookmarks", bookmarks);
 }
+
+export async function loadCheckboxState(): Promise<Record<string, boolean>> {
+  return getItem<Record<string, boolean>>("checkboxState", {});
+}
+
+export async function saveCheckboxState(
+  state: Record<string, boolean>,
+): Promise<void> {
+  await setItem("checkboxState", state);
+}
+
+export function checkboxStateKey(pageKey: string, checkId: string): string {
+  return `${pageKey}#${checkId}`;
+}

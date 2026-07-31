@@ -104,6 +104,34 @@
     @apply mb-1;
   }
 
+  .prose-guide ul.contains-task-list {
+    @apply list-none pl-0;
+  }
+
+  .prose-guide li.task-list-item {
+    @apply relative mb-3 flex list-none items-start gap-3 pl-0;
+  }
+
+  .prose-guide li.task-list-item-interactive {
+    @apply text-foreground/90;
+  }
+
+  .prose-guide li.task-list-item-static {
+    @apply text-muted-foreground;
+  }
+
+  .prose-guide li.task-list-item:has(> .task-list-checkbox:checked) {
+    @apply text-muted-foreground;
+  }
+
+  .prose-guide .task-list-checkbox {
+    @apply mt-1.5 size-4 shrink-0 cursor-pointer rounded-sm border border-border accent-primary;
+  }
+
+  .prose-guide .task-list-checkbox:disabled {
+    @apply cursor-not-allowed opacity-60;
+  }
+
   .prose-guide strong {
     @apply font-semibold text-foreground;
   }
