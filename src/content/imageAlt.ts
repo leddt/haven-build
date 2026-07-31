@@ -21,7 +21,9 @@ function applySizeToken(
 }
 
 /**
- * Size specs live after `|` (or as the whole alt): `card|h=26rem`, `|h=26rem w=12rem`, `h=26rem`.
+ * Size specs may be the whole alt or follow `|` after a label:
+ * `![h=26rem](...)`, `![card|h=26rem](...)`, `![card|h=26rem w=12rem](...)`.
+ * Prefer `![h=…]` (no leading `|`) inside GFM tables — `|` is a column separator.
  * Non-size segments become the visible alt text.
  */
 export function parseImageAlt(raw: string): ImageAltSize {

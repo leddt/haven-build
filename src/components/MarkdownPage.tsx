@@ -49,45 +49,47 @@ function GuideImage({
     />
   );
 
-  if (!zoomable) {
-    return image;
-  }
-
   return (
-    <>
-      <button
-        type="button"
-        className="guide-image-trigger"
-        onClick={() => setOpen(true)}
-        aria-label={`View ${label} full size`}
-      >
-        {image}
-      </button>
-      <Dialog.Root open={open} onOpenChange={setOpen}>
-        <Dialog.Portal>
-          <Dialog.Overlay className="fixed inset-0 z-50 bg-black/80 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:animate-in data-[state=open]:fade-in-0" />
-          <Dialog.Content
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 outline-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:animate-in data-[state=open]:fade-in-0"
-            aria-describedby={undefined}
-            onClick={() => setOpen(false)}
+    <span className="guide-image-slot">
+      {zoomable ? (
+        <>
+          <button
+            type="button"
+            className="guide-image-trigger"
+            onClick={() => setOpen(true)}
+            aria-label={`View ${label} full size`}
           >
-            <Dialog.Title className="sr-only">{label}</Dialog.Title>
-            <img
-              src={src}
-              alt={alt}
-              className="max-h-full max-w-full object-contain"
-              onClick={(event) => event.stopPropagation()}
-            />
-            <Dialog.Close
-              className="absolute top-3 right-3 rounded-md bg-black/50 p-2 text-white opacity-90 transition-opacity hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
-              aria-label="Close image"
-            >
-              <XIcon className="size-5" />
-            </Dialog.Close>
-          </Dialog.Content>
-        </Dialog.Portal>
-      </Dialog.Root>
-    </>
+            {image}
+          </button>
+          <Dialog.Root open={open} onOpenChange={setOpen}>
+            <Dialog.Portal>
+              <Dialog.Overlay className="fixed inset-0 z-50 bg-black/80 data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:animate-in data-[state=open]:fade-in-0" />
+              <Dialog.Content
+                className="fixed inset-0 z-50 flex items-center justify-center p-4 outline-none data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:animate-in data-[state=open]:fade-in-0"
+                aria-describedby={undefined}
+                onClick={() => setOpen(false)}
+              >
+                <Dialog.Title className="sr-only">{label}</Dialog.Title>
+                <img
+                  src={src}
+                  alt={alt}
+                  className="max-h-full max-w-full object-contain"
+                  onClick={(event) => event.stopPropagation()}
+                />
+                <Dialog.Close
+                  className="absolute top-3 right-3 rounded-md bg-black/50 p-2 text-white opacity-90 transition-opacity hover:opacity-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  aria-label="Close image"
+                >
+                  <XIcon className="size-5" />
+                </Dialog.Close>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
+        </>
+      ) : (
+        image
+      )}
+    </span>
   );
 }
 

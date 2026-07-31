@@ -144,9 +144,13 @@
     @apply rounded bg-muted px-1.5 py-0.5 text-sm;
   }
 
-  .prose-guide .guide-image-trigger {
-    @apply my-2 inline-flex max-w-full cursor-zoom-in appearance-none border-0 bg-transparent p-0;
+  .prose-guide .guide-image-slot {
+    @apply inline-flex max-w-full;
     flex-shrink: 0;
+  }
+
+  .prose-guide .guide-image-trigger {
+    @apply inline-flex max-w-full cursor-zoom-in appearance-none border-0 bg-transparent p-0;
   }
 
   .prose-guide .guide-image {
@@ -156,15 +160,13 @@
     height: auto;
     object-fit: contain;
     display: block;
-    flex-shrink: 0;
   }
 
-  .prose-guide .guide-image-trigger .guide-image {
+  .prose-guide .guide-image-slot .guide-image {
     @apply my-0;
   }
 
-  .prose-guide p:has(> .guide-image-trigger),
-  .prose-guide p:has(> .guide-image) {
+  .prose-guide p:has(> .guide-image-slot) {
     @apply my-4 flex flex-wrap items-end gap-2;
   }
 
@@ -186,13 +188,14 @@
     @apply whitespace-nowrap text-left font-medium;
   }
 
-  .prose-guide table .guide-image-trigger,
   .prose-guide table .guide-image {
     margin: 0;
   }
 
-  .prose-guide table p:has(> .guide-image-trigger),
-  .prose-guide table p:has(> .guide-image) {
-    @apply my-0 flex justify-center;
+  /* GFM puts images directly in td/th (no <p>). Center image-only cells. */
+  .prose-guide :is(td, th):has(> .guide-image-slot:only-child) > .guide-image-slot {
+    display: flex;
+    width: 100%;
+    justify-content: center;
   }
 }

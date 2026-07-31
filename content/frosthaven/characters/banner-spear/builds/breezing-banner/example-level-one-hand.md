@@ -2,19 +2,19 @@
 
 Banner
 
-![|h=20rem](../../images/rallying-cry.png)
+![h=20rem](../../images/rallying-cry.png)
 
 Attacks
 
-![|h=20rem](../../images/javelin.png)![|h=20rem](../../images/driving-inspiration.png)![|h=20rem](../../images/incendiary-throw.png)
+![h=20rem](../../images/javelin.png)![h=20rem](../../images/driving-inspiration.png)![h=20rem](../../images/incendiary-throw.png)
 
 Movement
 
-![|h=20rem](../../images/set-for-the-charge.png)![|h=20rem](../../images/combined-effort.png)![|h=20rem](../../images/tip-of-the-spear.png)
+![h=20rem](../../images/set-for-the-charge.png)![h=20rem](../../images/combined-effort.png)![h=20rem](../../images/tip-of-the-spear.png)
 
 Utility
 
-![|h=20rem](../../images/at-all-costs.png)![|h=20rem](../../images/regroup.png)![|h=20rem](../../images/resolved-courage.png)
+![h=20rem](../../images/at-all-costs.png)![h=20rem](../../images/regroup.png)![h=20rem](../../images/resolved-courage.png)
 
 We need three more cards to round out our build. Two cards certainly don’t give us enough movement, so we’ll pick up [TIp of the Spear](#tip-of-the-spear). We might be able to use the top attack as well, since it’s a relatively safe formation that we can activate without putting our banner in any danger at all. It’s also our only decently late initiative, since we aren’t at all interested in [Unbreakble Wall](#unbreakable-wall). We don’t really care about late initiatives since we don’t plan to be in the frontlines much, but it may occasionally matter for our summons. 
 
