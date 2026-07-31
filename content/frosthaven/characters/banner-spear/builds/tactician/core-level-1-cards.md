@@ -2,15 +2,15 @@
 
 Formations
 
-![](../../images/resolved-courage.png)![](../../images/rallying-cry.png)![](../../images/tip-of-the-spear.png)
+![|h=26rem](../../images/resolved-courage.png)![|h=26rem](../../images/rallying-cry.png)![|h=26rem](../../images/tip-of-the-spear.png)
 
 Movement
 
-![](../../images/set-for-the-charge.png)![](../../images/combined-effort.png)
+![|h=26rem](../../images/set-for-the-charge.png)![|h=26rem](../../images/combined-effort.png)
 
 Utility
 
-![](../../images/unbreakable-wall.png)![](../../images/pincer-movement.png)
+![|h=26rem](../../images/unbreakable-wall.png)![|h=26rem](../../images/pincer-movement.png)
 
 These are our cards that we will bring to every single scenario, until we gain a few levels and find stronger replacements. We’ll be sorting cards into three major categories: formations, movement, and utility. Some cards will have the flexibility to be used in multiple roles; as these arise, we’ll mark these in pink. 
 

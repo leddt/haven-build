@@ -4,15 +4,15 @@
 
 Formations
 
-![](../../images/resolved-courage.png)![](../../images/rallying-cry.png)![](../../images/meat-grinder.png)![](../../images/let-them-come.png)
+![|h=20rem](../../images/resolved-courage.png)![|h=20rem](../../images/rallying-cry.png)![|h=20rem](../../images/meat-grinder.png)![|h=20rem](../../images/let-them-come.png)
 
 Movement
 
-![](../../images/set-for-the-charge.png)![](../../images/tip-of-the-spear.png)![](../../images/boldening-blow.png)
+![|h=20rem](../../images/set-for-the-charge.png)![|h=20rem](../../images/tip-of-the-spear.png)![|h=20rem](../../images/boldening-blow.png)
 
 Utility
 
-![](../../images/explosive-epicenter.png)![](../../images/pincer-movement.png)![](../../images/regroup.png)
+![|h=20rem](../../images/explosive-epicenter.png)![|h=20rem](../../images/pincer-movement.png)![|h=20rem](../../images/regroup.png)
 
 Explosive Epicenter provides an awesome formation and an awesome loss for us. I would try the loss for at least one or two scenarios and see how much value you get for you and your party. I think most parties will be very happy to have it, and those that aren’t will find that the top action provides immense value. Either way, the loss on [Unbreakable Wall](#unbreakable-wall) is somewhat outdated. We would like to avoid running both losses, and the shield is a bit weak now that enemies will be hitting much harder. If you are running in a very large party, or there are lots of enemies with retaliate within a scenario, consider bringing [Unbreakable Wall](#unbreakable-wall) over [Rallying Cry](#rallying-cry), as disarming one enemy is less impressive than shoving three. 
 

@@ -149,23 +149,22 @@
     flex-shrink: 0;
   }
 
-  .prose-guide .guide-image-trigger .guide-image {
-    @apply my-0 rounded-md border border-border bg-muted/30;
-    /* Ability cards share ~2:3 aspect but vary in pixel size; lock display height. */
-    height: 26rem;
+  .prose-guide .guide-image {
+    @apply my-2 rounded-md border border-border bg-muted/30;
     width: auto;
     max-width: 100%;
+    height: auto;
     object-fit: contain;
     display: block;
+    flex-shrink: 0;
   }
 
-  .prose-guide .guide-image-trigger.guide-image-wide .guide-image {
-    height: auto;
-    width: min(100%, 48rem);
-    max-height: 32rem;
+  .prose-guide .guide-image-trigger .guide-image {
+    @apply my-0;
   }
 
-  .prose-guide p:has(> .guide-image-trigger) {
+  .prose-guide p:has(> .guide-image-trigger),
+  .prose-guide p:has(> .guide-image) {
     @apply my-4 flex flex-wrap items-end gap-2;
   }
 
@@ -187,11 +186,13 @@
     @apply whitespace-nowrap text-left font-medium;
   }
 
-  .prose-guide table .guide-image-trigger {
+  .prose-guide table .guide-image-trigger,
+  .prose-guide table .guide-image {
     margin: 0;
   }
 
-  .prose-guide table p:has(> .guide-image-trigger) {
+  .prose-guide table p:has(> .guide-image-trigger),
+  .prose-guide table p:has(> .guide-image) {
     @apply my-0 flex justify-center;
   }
 }

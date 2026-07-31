@@ -2,19 +2,19 @@
 
 Banner
 
-![](../../images/rallying-cry.png)
+![|h=26rem](../../images/rallying-cry.png)
 
 Attacks
 
-![](../../images/javelin.png)![](../../images/driving-inspiration.png)
+![|h=26rem](../../images/javelin.png)![|h=26rem](../../images/driving-inspiration.png)
 
 Movement
 
-![](../../images/set-for-the-charge.png)![](../../images/combined-effort.png)
+![|h=26rem](../../images/set-for-the-charge.png)![|h=26rem](../../images/combined-effort.png)
 
 Utility
 
-![](../../images/at-all-costs.png)![](../../images/regroup.png)
+![|h=26rem](../../images/at-all-costs.png)![|h=26rem](../../images/regroup.png)
 
 These are our cards that we will bring to every single scenario, until we gain a few levels and find stronger replacements. We’ll be sorting cards into four major categories: banner(s), attacks, movement, and utility. Some cards will have the flexibility to be used in multiple roles; as these arise, we’ll mark these in pink. 
 

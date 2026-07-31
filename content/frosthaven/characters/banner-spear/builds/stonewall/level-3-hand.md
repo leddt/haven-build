@@ -4,19 +4,19 @@
 
 Tankiness
 
-![](../../images/unbreakable-wall.png)![](../../images/deflecting-maneuver.png)![](../../images/let-them-come.png)
+![|h=20rem](../../images/unbreakable-wall.png)![|h=20rem](../../images/deflecting-maneuver.png)![|h=20rem](../../images/let-them-come.png)
 
 Attacks
 
-![](../../images/resolved-courage.png)![](../../images/javelin.png)
+![|h=20rem](../../images/resolved-courage.png)![|h=20rem](../../images/javelin.png)
 
 Movement
 
-![](../../images/set-for-the-charge.png)![](../../images/combined-effort.png)![](../../images/meat-grinder.png)![](../../images/regroup.png)
+![|h=20rem](../../images/set-for-the-charge.png)![|h=20rem](../../images/combined-effort.png)![|h=20rem](../../images/meat-grinder.png)![|h=20rem](../../images/regroup.png)
 
 Utility
 
-![](../../images/pincer-movement.png)
+![|h=20rem](../../images/pincer-movement.png)
 
 The banner on Let Them Come will be our secondary source of tankiness. With that and [Unbreakable Wall](#unbreakable-wall), we’ll be able to get a permanent two shield as long as we are careful with our positioning. We drop [At All Costs](#at-all-costs), since we need more bottom actions for moving ourself and our banner and can’t really afford to take a turn off to drop the [Reinforcement](#at-all-costs). Use [Regroup](#regroup) to move your banner ahead once you have the time \- it’ll be slow, but it’s probably worth it. 
 

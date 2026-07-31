@@ -3,6 +3,7 @@ import {
   useContext,
   useEffect,
   useState,
+  type CSSProperties,
   type ReactNode,
 } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -11,6 +12,7 @@ import { Dialog } from "radix-ui";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { resolveContentAssetUrl } from "@/content/assets";
+import { parseImageAlt } from "@/content/imageAlt";
 import { resolveGuideHref, slugifyHeading } from "@/content/links";
 import { remarkCheckId } from "@/content/remarkCheckId";
 import { cn } from "@/lib/utils";
@@ -18,31 +20,48 @@ import { useProgress } from "@/state/progress";
 
 const TaskCheckIdContext = createContext<string | undefined>(undefined);
 
-function GuideImage({ src, alt }: { src: string; alt: string }) {
-  const [wide, setWide] = useState(false);
+function GuideImage({
+  src,
+  alt,
+  height,
+  width,
+}: {
+  src: string;
+  alt: string;
+  height?: string;
+  width?: string;
+}) {
   const [open, setOpen] = useState(false);
   const label = alt.trim() || "Guide image";
+  const zoomable = Boolean(height || width);
+  const sizeStyle: CSSProperties = {
+    ...(height ? { height } : null),
+    ...(width ? { width } : null),
+  };
+
+  const image = (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      className="guide-image"
+      style={sizeStyle}
+    />
+  );
+
+  if (!zoomable) {
+    return image;
+  }
 
   return (
     <>
       <button
         type="button"
-        className={cn("guide-image-trigger", wide && "guide-image-wide")}
+        className="guide-image-trigger"
         onClick={() => setOpen(true)}
         aria-label={`View ${label} full size`}
       >
-        <img
-          src={src}
-          alt={alt}
-          loading="lazy"
-          className="guide-image"
-          onLoad={(event) => {
-            const { naturalWidth, naturalHeight } = event.currentTarget;
-            if (naturalWidth > 0 && naturalHeight > 0) {
-              setWide(naturalWidth / naturalHeight > 1.1);
-            }
-          }}
-        />
+        {image}
       </button>
       <Dialog.Root open={open} onOpenChange={setOpen}>
         <Dialog.Portal>
@@ -241,7 +260,7 @@ export function MarkdownPage({
               </a>
             );
           },
-          img: ({ src, alt }) => {
+          img: ({ src, alt: rawAlt }) => {
             const resolved = src
               ? resolveContentAssetUrl(assetBase, src)
               : undefined;
@@ -252,7 +271,15 @@ export function MarkdownPage({
                 </span>
               );
             }
-            return <GuideImage src={resolved} alt={alt ?? ""} />;
+            const { alt, height, width } = parseImageAlt(rawAlt ?? "");
+            return (
+              <GuideImage
+                src={resolved}
+                alt={alt}
+                height={height}
+                width={width}
+              />
+            );
           },
         }}
       >

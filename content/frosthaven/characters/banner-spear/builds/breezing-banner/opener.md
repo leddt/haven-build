@@ -4,8 +4,8 @@ We’ll start by listing out an example of what your first three turns might loo
 
 |  | Turn One | Turn Two | Turn Three |
 | --- | --- | --- | --- |
-| Top Action | ![](../../images/javelin.png) | ![](../../images/incendiary-throw.png) | ![](../../images/driving-inspiration.png) |
-| Bottom Action | ![](../../images/rallying-cry.png) | ![](../../images/resolved-courage.png) | ![](../../images/at-all-costs.png) |
+| Top Action | ![|h=26rem](../../images/javelin.png) | ![|h=26rem](../../images/incendiary-throw.png) | ![|h=26rem](../../images/driving-inspiration.png) |
+| Bottom Action | ![|h=26rem](../../images/rallying-cry.png) | ![|h=26rem](../../images/resolved-courage.png) | ![|h=26rem](../../images/at-all-costs.png) |
 
 We’re making the assumption here that we feel confident getting our banner from room to room. It’s going to be ambitious to do this right from the getgo, so if it seems like it’ll be difficult I recommend waiting until you’ve rested twice and have entered the second room, which will buy you additional turns as well as save you valuable movement actions. Once you have a single level or a few perks, we should have no issues doing this. 
 

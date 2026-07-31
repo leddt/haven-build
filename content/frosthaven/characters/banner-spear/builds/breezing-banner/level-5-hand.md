@@ -4,19 +4,19 @@
 
 Banner
 
-![](../../images/rallying-cry.png)
+![|h=20rem](../../images/rallying-cry.png)
 
 Attacks
 
-![](../../images/javelin.png)![](../../images/driving-inspiration.png)![](../../images/pinning-charge.png)![](../../images/incendiary-throw.png)
+![|h=20rem](../../images/javelin.png)![|h=20rem](../../images/driving-inspiration.png)![|h=20rem](../../images/pinning-charge.png)![|h=20rem](../../images/incendiary-throw.png)
 
 Movement
 
-![](../../images/combined-effort.png)![](../../images/head-of-the-hammer.png)![](../../images/boldening-blow.png)
+![|h=20rem](../../images/combined-effort.png)![|h=20rem](../../images/head-of-the-hammer.png)![|h=20rem](../../images/boldening-blow.png)
 
 Utility
 
-![](../../images/regroup.png)![](../../images/air-support.png)
+![|h=20rem](../../images/regroup.png)![|h=20rem](../../images/air-support.png)
 
 Boldening Blow gives us even more reliable banner movement, and makes it even more likely that our falcon will be productive. We should have no issues getting ourself into position at this point, so we cut [Set for the Charge](#set-for-the-charge). We’re relocating [Air Support](#level-04) to a utility card for the time being; the top is still fantastic, of course, but we have enough tools that it’s likely our falcon might get more than one attack off. Even if the frontline is crowded, the fact that it has flying means you can get it behind enemy lines with Boldening Blow, empowering [Pinning Shot](#level-02) and tanking a hit all at once. Don’t be afraid to use the top action if it’s particularly crowded, if there are shielded enemies, or if you’ve just got too much movement to do to justify standing still for a round. 
 
