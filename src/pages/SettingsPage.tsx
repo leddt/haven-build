@@ -1,3 +1,4 @@
+import { version } from "../../package.json";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { BackButton } from "@/components/BackButton";
 import type { ThemePreference } from "@/content/types";
@@ -52,6 +53,8 @@ export function SettingsPage() {
           ))}
         </RadioGroup>
       </section>
+
+      <p className="mt-12 text-sm text-muted-foreground">Version {version}</p>
     </main>
   );
 }
