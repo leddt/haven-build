@@ -7,7 +7,7 @@ import {
   type ReactNode,
 } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { XIcon } from "lucide-react";
+import { Check, XIcon } from "lucide-react";
 import { Dialog } from "radix-ui";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -121,24 +121,28 @@ function TaskCheckbox({
 
   if (!checkId) {
     return (
-      <input
-        type="checkbox"
-        className="task-list-checkbox"
-        checked={mdDefault}
-        disabled
-        readOnly
-      />
+      <span
+        className="task-list-checkbox task-list-checkbox-static"
+        data-state={mdDefault ? "checked" : "unchecked"}
+        aria-hidden
+      >
+        {mdDefault ? <Check className="size-3.5" strokeWidth={3} /> : null}
+      </span>
     );
   }
 
   const checked = isCheckboxChecked(pageKey, checkId, mdDefault);
   return (
-    <input
-      type="checkbox"
-      className="task-list-checkbox"
-      checked={checked}
-      onChange={() => toggleCheckbox(pageKey, checkId, mdDefault)}
-    />
+    <button
+      type="button"
+      role="checkbox"
+      aria-checked={checked}
+      data-state={checked ? "checked" : "unchecked"}
+      className="task-list-checkbox task-list-checkbox-interactive"
+      onClick={() => toggleCheckbox(pageKey, checkId, mdDefault)}
+    >
+      {checked ? <Check className="size-3.5" strokeWidth={3} /> : null}
+    </button>
   );
 }
 
@@ -160,6 +164,7 @@ export function MarkdownPage({
 }) {
   const navigate = useNavigate();
   const location = useLocation();
+  const { toggleCheckbox } = useProgress();
 
   useEffect(() => {
     const scrollTo = (location.state as { scrollTo?: string } | null)?.scrollTo;
@@ -180,12 +185,15 @@ export function MarkdownPage({
             );
           },
           li: ({ children, className, ...props }) => {
+            const dataProps = props as {
+              "data-check-id"?: unknown;
+              "data-check-default"?: unknown;
+            };
             const checkId =
-              typeof (props as { "data-check-id"?: unknown })[
-                "data-check-id"
-              ] === "string"
-                ? (props as { "data-check-id": string })["data-check-id"]
+              typeof dataProps["data-check-id"] === "string"
+                ? dataProps["data-check-id"]
                 : undefined;
+            const mdDefault = dataProps["data-check-default"] === "true";
             const isTask = Boolean(
               className?.includes("task-list-item") || checkId,
             );
@@ -199,6 +207,15 @@ export function MarkdownPage({
                     isTask && !checkId && "task-list-item-static",
                   )}
                   data-check-id={checkId}
+                  onClick={
+                    checkId
+                      ? (event) => {
+                          const target = event.target as HTMLElement;
+                          if (target.closest("a, button, input, label")) return;
+                          toggleCheckbox(pageKey, checkId, mdDefault);
+                        }
+                      : undefined
+                  }
                 >
                   {children}
                 </li>

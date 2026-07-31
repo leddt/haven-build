@@ -113,23 +113,35 @@
   }
 
   .prose-guide li.task-list-item-interactive {
-    @apply text-foreground/90;
+    @apply cursor-pointer text-foreground/90;
   }
 
   .prose-guide li.task-list-item-static {
     @apply text-muted-foreground;
   }
 
-  .prose-guide li.task-list-item:has(> .task-list-checkbox:checked) {
+  .prose-guide li.task-list-item:has(> .task-list-checkbox[data-state="checked"]) {
     @apply text-muted-foreground;
   }
 
   .prose-guide .task-list-checkbox {
-    @apply mt-1.5 size-4 shrink-0 cursor-pointer rounded-sm border border-border accent-primary;
+    @apply mt-0.5 inline-flex size-5 shrink-0 items-center justify-center rounded-md border border-border bg-card text-primary-foreground shadow-sm transition-colors;
   }
 
-  .prose-guide .task-list-checkbox:disabled {
-    @apply cursor-not-allowed opacity-60;
+  .prose-guide .task-list-checkbox-interactive {
+    @apply cursor-pointer hover:border-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring;
+  }
+
+  .prose-guide .task-list-checkbox-interactive[data-state="checked"] {
+    @apply border-primary bg-primary;
+  }
+
+  .prose-guide .task-list-checkbox-static {
+    @apply opacity-55;
+  }
+
+  .prose-guide .task-list-checkbox-static[data-state="checked"] {
+    @apply border-primary/60 bg-primary/60;
   }
 
   .prose-guide strong {

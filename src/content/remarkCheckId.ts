@@ -64,6 +64,9 @@ export function remarkCheckId() {
       item.data.hProperties ??= {};
       (item.data.hProperties as Record<string, string>)["data-check-id"] =
         checkId;
+      (item.data.hProperties as Record<string, string>)[
+        "data-check-default"
+      ] = item.checked ? "true" : "false";
     });
   };
 }
