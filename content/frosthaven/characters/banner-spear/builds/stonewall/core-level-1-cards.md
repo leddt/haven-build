@@ -1,5 +1,3 @@
-# Core Level 1 Cards
-
 Tankiness
 
 ![h=26rem](../../images/unbreakable-wall.png)![h=26rem](../../images/deflecting-maneuver.png)![h=26rem](../../images/at-all-costs.png)

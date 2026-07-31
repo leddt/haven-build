@@ -1,5 +1,3 @@
-# Level 1 Cards
-
 
 ## At All Costs
 

@@ -1,5 +1,3 @@
-# Level 9
-
 ![](../images/hail-of-spears.png)![](../images/take-no-prisoners.png)
 
 Hail of Spears is one capstone for the banner build. Thematically, you are throwing each banner at a different enemy. You get one target for free and then another target for each banner you’ve been lugging around. Then, you throw the banners at the targets. It’s worth noting that you don’t have to assign each banner to a different target, you can put them all next to one target. This can be a lot of attack all at once. A dedicated Bannerspear will probably try to have two banners for the majority of the scenario, so this would be a nonloss attack 15 \- *very* respectable, even at such a poor initiative. The obvious catch is that the banners are now likely in danger. You will probably want to use this card slowly, to ensure that you have time to rescue them before the enemies counteract. Alternatively, you could pair it with granted movement to shuffle the banners backwards immediately. Overall, if you are setting up a few banners anyway and you are confident that you’ll be able to keep them safe, this action is exceptionally good. 

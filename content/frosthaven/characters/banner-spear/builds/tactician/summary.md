@@ -1,5 +1,3 @@
-# Summary
-
 The tactician build works to get the most out of the Bannerspear’s formations. This requires the Bannerspear to be quite mobile, in order to reach the locations required for some of the more complex formations. As a result, we won’t be working to carry any banners with us from room to room, since we cannot afford the bottom actions required to put banners in the right places, nor can we rely on being able to block them from taking hits. However, we will emphasize some of our tankier actions, to enable us to move to the riskier locations required by our formation attacks. 
 
 There are a few reason why you might prefer the Tactician build for Bannerspear:

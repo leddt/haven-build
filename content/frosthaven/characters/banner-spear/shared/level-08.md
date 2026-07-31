@@ -1,5 +1,3 @@
-# Level 8
-
 ![](../images/sweeping-aid.png)![](../images/taunting-howl.png)
 
 We’ve seen a lot of actions the last few levels that are improvements over cards we’ve seen before, and at first glance it looks like Sweeping Aid is continuing the trend. The pattern and immobilize are identical to [Resolved Courage](#resolved-courage). The initiative is slow instead of fast, which is typically worse for CC and for formations, but we trade it for an extra damage and two pierce. However, there’s a very important distinction: you and the ally have swapped places, meaning it’s the ally that’s in danger instead of you. We usually prefer to be the one in danger, because we’re fairly tanky, but if the ally in question is expendable (like a falcon or a skeleton, for instance) then suddenly nobody important is adjacent to an immobilized enemy. Plus, it means we’re attacking from a distance, allowing us to ignore retaliate. That being said, if we don’t have a disposable ally then it’s likely worse to put someone squishy in danger rather than ourself. 

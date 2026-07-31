@@ -1,3 +1,1 @@
-# Enhancements
-
 Mostly, it’s movement we’re looking for. I’d add additional granted movement to Combined Effort, and Boldening Blow if you can afford it, so our banners can keep up. If you’re getting into higher levels, you’ll want wind on one of the movement options. I recommend Combined Effort, as it’ll be cheap and something we’re happy to keep around if it’s enhanced.

@@ -1,5 +1,3 @@
-# Level 2
-
 ![](../images/meat-grinder.png)![](../images/pinning-charge.png)
 
 Meat Grinder is a *nice* formation. The pattern is in theory most similar to [Rallying Cry](#rallying-cry), but in practice most similar to [Pincer Movement](#pincer-movement) in where you need to be to get this off optimally. To ping one enemy, you and your ally can stand side by side; if that’s your plan, you probably should have just brought [Combined Effort](#combined-effort) for similar damage and an easier pattern. If you’re looking to get two targets it probably means you are jumping into the fray. If you can hit both enemies, then you are rewarded with a lot of damage and two wounds. The initiative would be nicer if it was a bit slower or a lot faster, so try to ensure that you line this one up to get in and out safely. 

@@ -1,5 +1,3 @@
-# Level 2 Hand
-
 [Level 2 Level\-up Choice](#level-02)
 
 Formations

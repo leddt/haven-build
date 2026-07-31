@@ -1,3 +1,1 @@
-# Strategy for Leveling
-
 Our main priorities are cards that improve our survivability. Anything that grants shield is immediately considered. Since this includes a banner at level three, we are definitely invested in cards that grant movement bonuses whenever possible. We also need quick initiatives more than other builds, since it’s important we put up shield, disadvantage, and other bonuses before enemies get to act.

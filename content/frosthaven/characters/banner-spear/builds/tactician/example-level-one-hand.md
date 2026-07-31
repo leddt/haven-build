@@ -1,5 +1,3 @@
-# Example Level One Hand
-
 Formations
 
 ![h=20rem](../../images/resolved-courage.png)![h=20rem](../../images/rallying-cry.png)![h=20rem](../../images/tip-of-the-spear.png)

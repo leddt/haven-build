@@ -1,5 +1,3 @@
-# Opener
-
 We’ll start by listing out an example of what your first three turns might look like when starting a scenario. The action outlined is the one we’ll use for initiative. 
 
 |  | Turn One | Turn Two | Turn Three |

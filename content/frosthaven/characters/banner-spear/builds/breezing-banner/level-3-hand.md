@@ -1,5 +1,3 @@
-# Level 3 Hand
-
 [Level 3 Level\-up Choice](#level-03)
 
 Banner

@@ -1,5 +1,3 @@
-# Perks
-
 ![h=26rem](../../images/character-sheet.png)
 
 - [ ] <!-- check:two-shield --> For obvious reasons, the two shield non\-AMD is fantastic for us. It isn’t good enough that we’ll want to rush it, but if we ever get two perks at the same time, we should pick this up. If we don’t have it after we’ve gotten our first 4\-5 regular perks, we should come back and take this one normally.

@@ -1,5 +1,3 @@
-# Example Level One Hand
-
 Tankiness
 
 ![h=20rem](../../images/unbreakable-wall.png)![h=20rem](../../images/deflecting-maneuver.png)![h=20rem](../../images/at-all-costs.png)

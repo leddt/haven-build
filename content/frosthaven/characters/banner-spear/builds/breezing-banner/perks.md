@@ -1,5 +1,3 @@
-# Perks
-
 ![h=26rem](../../images/character-sheet.png)
 
 - [ ] <!-- check:rest-movement --> Before we do anything else, we need to grant our banner the extra two movement each rest. It hurts to delay improving our AMD, but try for the “bring the banner with you” mastery on the first scenario and feel how much just a little extra movement will accomplish. It’ll be painful, but we should be able to get that mastery right away, giving us the jump start of this perk.

@@ -1,5 +1,3 @@
-# Level 7 Hand
-
 [Level 7 Level\-up Choice](#level-07)
 
 Formations

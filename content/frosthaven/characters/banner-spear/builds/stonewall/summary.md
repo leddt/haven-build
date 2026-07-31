@@ -1,5 +1,3 @@
-# Summary
-
 The Stonewall build focuses on being the tankiest tank of all time. Your plan is to stand in front of your team and make sure that nobody, including you, will ever die. The crux of the build involves combining [Unbreakable Wall](#unbreakable-wall) with the banner on [Let Them Come](#level-03) to have two permanent shield. You will still provide some attacks and some healing, but ultimately your main goal is to ensure that neither you nor your banner will die, so that your team can focus all of their efforts on attacking. 
 
 There are a few reason why you might prefer the Stonewall build for Bannerspear:

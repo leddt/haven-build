@@ -1,5 +1,3 @@
-# Level 5 Hand
-
 [Level 5 Level\-up Choice](#level-05)
 
 Formations

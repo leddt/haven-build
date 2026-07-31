@@ -1,5 +1,3 @@
-# Level 4
-
 ![](../images/air-support.png)![](../images/boldening-blow.png)
 
 Air Support offers a simple yet powerful ranged attack. Strong damage, excellent pierce, solid range, decently quick initiative, and an element we might want. There’s not much to say about this card, it’s reliably very good. It’s not going to generate a story you’re going to reminisce about, but it should never fail to find value. 

@@ -1,5 +1,3 @@
-# Example Level One Hand
-
 Banner
 
 ![h=20rem](../../images/rallying-cry.png)

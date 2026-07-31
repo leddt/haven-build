@@ -1,5 +1,3 @@
-# Core Level 1 Cards
-
 Formations
 
 ![h=26rem](../../images/resolved-courage.png)![h=26rem](../../images/rallying-cry.png)![h=26rem](../../images/tip-of-the-spear.png)

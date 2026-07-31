@@ -1,5 +1,3 @@
-# Level 6 Hand
-
 [Level 6 Level\-up Choice](#level-06)
 
 Tankiness

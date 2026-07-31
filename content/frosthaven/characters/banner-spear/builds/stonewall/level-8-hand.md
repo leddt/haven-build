@@ -1,5 +1,3 @@
-# Level 8 Hand
-
 [Level 8 Level\-up Choice](#level-08)
 
 Tankiness

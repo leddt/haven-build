@@ -1,5 +1,3 @@
-# Core Level 1 Cards
-
 Banner
 
 ![h=26rem](../../images/rallying-cry.png)

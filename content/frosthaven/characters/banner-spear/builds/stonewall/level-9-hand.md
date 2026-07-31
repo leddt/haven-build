@@ -1,5 +1,3 @@
-# Level 9 Hand
-
 [Level 9 Level\-up Choice](#level-09)
 
 Tankiness

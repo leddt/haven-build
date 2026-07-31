@@ -1,5 +1,3 @@
-# Summary
-
 The Breezing Banner Build is the closest we’ll get to support as a Bannerspear. Standing back, we’ll throw out ranged attacks, healing, and support our team with Banners. As the name “breezing” implies, we’ll be making good use of wind in order to accomplish our goals. We won’t deal or absorb as much damage directly as the other builds might, but we’ll do a fantastic job at enabling our team to do what they do best. 
 
 There are a few reason why you might prefer the Breezing Banner build for Bannerspear:

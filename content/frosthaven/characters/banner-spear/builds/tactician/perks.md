@@ -1,5 +1,3 @@
-# Perks
-
 ![h=26rem](../../images/character-sheet.png)
 
 - [ ] <!-- check:ignore-item-effects --> We will want some armor to survive the turns we invade enemy territory, so we begin by ignoring negative item effects. Removing the (\-1) is a spectacular bonus.

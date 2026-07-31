@@ -1,5 +1,3 @@
-# Level 4 Hand
-
 [Level 4 Level\-up Choice](#level-04)
 
 Tankiness

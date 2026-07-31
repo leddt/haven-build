@@ -1,5 +1,3 @@
-# Level 6
-
 ![](../images/barricade.png)![](../images/bolstering-shout.png)
 
 Barricade is an *awesome* card. Unlike [Meat Grinder](#level-02), we don’t have to put someone in undue danger to hit multiple targets with wound here. We do need the help of two allies instead of one, but the positioning is fairly safe and we’re going fast enough that we’re likely the one taking the damage here. Even if we aren’t, we gift a shield to everyone involved, meaning that the damage will be reduced before it’s shared. Don’t expect to easily hit four targets with this every time, but three is very realistic and even two is a fine use of our time. 
