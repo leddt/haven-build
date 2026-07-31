@@ -2,7 +2,8 @@
 name = "haven-build"
 version = "0.4.0"
 description = "Personal character build guide companion"
-authors = ["you"]
+authors = ["David Thibault"]
+license = "MIT"
 edition = "2021"
 
 [lib]

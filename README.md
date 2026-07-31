@@ -2,6 +2,13 @@
 
 Personal desktop app for following character build guides (Frosthaven first).
 
+## License
+
+The application code is licensed under the [MIT License](LICENSE).
+
+The Markdown guides and images under `content/` are **not** covered by that
+license — they come from public community guides. See [`content/NOTICE`](content/NOTICE).
+
 ## Stack
 
 - Tauri 2 + React + TypeScript + Vite
