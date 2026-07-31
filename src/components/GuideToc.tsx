@@ -45,18 +45,21 @@ function TocLink({
 }
 
 function TocGroup({
-  label,
+  title,
+  kind,
   pages,
   base,
 }: {
-  label: string;
+  title: string;
+  kind: string;
   pages: PageEntry[];
   base: Omit<AppLocation, "pageId"> & { scope: PageScope };
 }) {
   return (
     <div className="space-y-1">
-      <p className="px-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-        {label}
+      <p className="px-2 text-xs font-semibold tracking-wide">
+        <span className="uppercase">{title}</span>{" "}
+        <span className="font-normal text-muted-foreground">({kind})</span>
       </p>
       <ul className="space-y-0.5">
         {pages.map((page) => (
@@ -76,19 +79,24 @@ export function GuideToc({
   gameId,
   characterId,
   buildId,
+  buildTitle,
+  characterTitle,
   buildPages,
   sharedPages,
 }: {
   gameId: string;
   characterId: string;
   buildId: string;
+  buildTitle: string;
+  characterTitle: string;
   buildPages: PageEntry[];
   sharedPages: PageEntry[];
 }) {
   return (
     <nav className="space-y-5 p-3">
       <TocGroup
-        label="This build"
+        title={buildTitle}
+        kind="build"
         pages={buildPages}
         base={{
           gameId,
@@ -99,7 +107,8 @@ export function GuideToc({
       />
       <Separator />
       <TocGroup
-        label="Character"
+        title={characterTitle}
+        kind="character"
         pages={sharedPages}
         base={{
           gameId,

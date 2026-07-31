@@ -62,6 +62,8 @@ export function ReaderLayout() {
             gameId={gameId}
             characterId={characterId}
             buildId={buildId}
+            buildTitle={build.title}
+            characterTitle={character.title}
             buildPages={buildPages}
             sharedPages={sharedPages}
           />
@@ -166,8 +168,15 @@ function PageBody({ loc }: { loc: AppLocation }) {
     <div className="flex h-full min-h-0 flex-col">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-border px-6 py-3">
         <div>
-          <p className="text-xs uppercase tracking-wide text-muted-foreground">
-            {scope === "build" ? "This build" : "Character"}
+          <p className="text-xs tracking-wide">
+            <span className="uppercase">
+              {scope === "build"
+                ? (build?.title ?? "Build")
+                : (character?.title ?? "Character")}
+            </span>{" "}
+            <span className="text-muted-foreground">
+              ({scope === "build" ? "build" : "character"})
+            </span>
           </p>
           <h1 className="font-display text-xl font-semibold">{entry.title}</h1>
         </div>
