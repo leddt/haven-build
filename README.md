@@ -74,14 +74,7 @@ npm run build:appimage
 ```
 
 Output: `src-tauri/target/release/bundle/appimage/`
-## Sample content
 
-Frosthaven → Banner Spear with three builds from the community guide:
+## Content
 
-- **Tactician** — formations-first
-- **Stonewall** — tank-first
-- **Breezing Banner** — banners / ranged support
-
-Plus character-shared card reviews (levels 1–9). Images live under `content/.../images/`.
-
-Add more games/characters/builds under `content/` using the same manifest layout.
+Guides live as local Markdown under `content/`. See [Writing content](docs/WRITING_CONTENT.md) for the layout and authoring conventions.
